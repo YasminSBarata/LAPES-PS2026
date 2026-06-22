@@ -1,0 +1,28 @@
+# ============================================================
+# Dependências — Sistema Agêntico RAG (ElderSync) · LAPES 2026
+# Python 3.12
+# ============================================================
+
+
+# --- Ingestão / RAG ---
+langchain                # framework base (loaders, text splitters, abstrações)
+langchain-community      # loaders de PDF/HTML/texto e integrações
+faiss-cpu                # vector store local, reprodutível
+sentence-transformers    # embeddings locais gratuitos (sem chave de API)
+pypdf                    # extração de texto de PDF
+python-dotenv            # carregar variáveis do .env
+
+# --- LLM + orquestração (PRÓXIMAS etapas) ---
+# langgraph
+# langchain-openai       # só se optar por OpenAI
+# langchain-huggingface  # só se optar por modelo local
+
+# --- Busca web / fallback ---
+# tavily-python
+
+# --- Interface ---
+# streamlit
+
+# --- Observabilidade / avaliação (diferenciais) ---
+# langfuse
+# ragas

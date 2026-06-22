@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente / segredos
+.env
+
+# Índice FAISS gerado (reprodutível a partir do corpus — não versionar)
+indice/
+*.faiss
+*.pkl
+
+# Cache de modelos / embeddings
+.cache/
+.huggingface/
+
+
+# Sistema operacional / editores
+.DS_Store
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+plano_estudos_LAPES_v2.md
