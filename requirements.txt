@@ -8,14 +8,14 @@
 langchain                # framework base (loaders, text splitters, abstrações)
 langchain-community      # loaders de PDF/HTML/texto e integrações
 faiss-cpu                # vector store local, reprodutível
-sentence-transformers    # embeddings locais gratuitos (sem chave de API)
+sentence-transformers    # embeddings locais gratuitos — modelo: paraphrase-multilingual-MiniLM-L12-v2 (PT+EN)
 pypdf                    # extração de texto de PDF
 python-dotenv            # carregar variáveis do .env
 
 # --- LLM + orquestração (PRÓXIMAS etapas) ---
-# langgraph
-# langchain-openai       # só se optar por OpenAI
-# langchain-huggingface  # só se optar por modelo local
+# langgraph              # orquestração dos agentes (entra na fase de agentes)
+# langchain-openai       # LLM escolhido: gpt-4o-mini (habilitar quando o LLM entrar)
+# langchain-huggingface  # alternativa local (Ollama) — troca no fim, se quiser
 
 # --- Busca web / fallback ---
 # tavily-python
