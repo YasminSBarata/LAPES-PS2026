@@ -1,0 +1,1438 @@
+A shortphysical performancebattery assessinglower extremi
+Journal of Gerontology; Mar 1994; 49, 2; Heaith Module
+pg.M85
+JournalofGerontology:MEDICALSCIENCES
+In thePublicDomain
+1994.Vol.49,No.2, M85M94
+A Short Physical Performance Battery Assessing
+Lower Extremity Function: Association With
+Self-Reported Disability and Prediction
+of Mortality and Nursing Home Admission
+Jack M. Guralnik,' Eleanor M. Simonsick,' Luigi Ferrucci,2 Robert J. Glynn,3 Lisa F. Berkman,
+Dan G. Blazer, Paul A. Scherr,° and Robert B. Wallace?
+Epidemiology, Demography, and Biometry Program, National Institute on Aging,
+NationalInstitutes of Health,Bethesda,Maryland.
+Geriatric Department, Hospital I Fraticini, INRCA,Florence, Italy.
+Channing Laboratory,Department of Medicine,Harvard Medical School.
+Department of Epidemiology,YaleUniversitySchool of Medicine.
+Department of Psychiatry,DukeUniversitySchool of Medicine.
+*Aging Studies Branch, National Center for Chronic Disease Prevention and Health Promotion,
+Centers for Disease Control,Atlanta, Georgia.
+Department ofPreventive Medicine and Environmental Health,University of Iowa.
+Background.A short battery of physical performance tests was used to assess lower extremity function in more than
+5,000 persons age 71 years and older in three communities.
+Methods.Balance,gait,strength,andendurancewere evaluatedbyexaminingabilitytostandwiththefeettogethern
+the side-by-side,semi-tandem,and tandem positions,time to walk 8feet,and time to risefrom a chair andreturn to the
+seatedposition5times.
+Results.A wide distribution of performance was observed for each test.Each test and a summary performance scale,
+created by summing categorical rankings of performance on each test, were strongly associated with self-report of
+disability.Bothself-report items and performance testswere independent predictors of short-termmortality andnursing
+home admission in multivariate analyses.However,evidence is presented that the performance tests provideinformation
+spectrum,whoreportedalmost nodisability,theperformance test scores distinguishedagradientof riskformortality and
+nursing home admission. Additionally, within subgroups with identical self-report profiles, there were systematic
+Conclusion.This study provides evidence that performance measures can validly characterize older persons across a
+broad spectrum of lower extremity function.Performance and self-report measures may complement each other in
+providinguseful information aboutfunctional status.
+of self-report and performance-based measures of lower
+ critical component in the evaluation of older persons in
+extremity functioning.We present findings from a short
+both clinical and research settings.Although measures of
+battery of performance tests of lower extremity functioning
+self- and proxy-reported functioning have proved extremely
+found to be efficient, practical, and safe in three large
+valuable,standardizedtests ofphysicalperformancehave
+cohorts of older persons. These tests were administered by
+been employed with increasing frequency in recent years
+singleinterviewersinthehomesofmorethan5,000older
+(1-9). These physical performance measures may offer ad-
+persons in about 10 minutes. The association between self-
+vantages over self-report measures in terms of validity,
+report and performance measures will be shown,followed
+reproducibility, sensitivity to change, applicability to cross-
+by analyses addressing the advantages of the performance
+national and cross-cultural studies,and the abilityto charac-
+measures in more finely classifying levels of functioning and
+terize high levels of function, although much methodologic
+in classifying persons not only at the disabled end of the
+work remains tobe done in this area (1).Understanding the
+functional spectrumbut along the entire spectrum offunc-
+relationship between self-report andperformance-based
+tioning. Finally, the relative contributions of the self-report
+measures is an important aspect of this issue.
+and performance measures in predicting death and nursing
+The purpose of this report is to investigate the association
+homeadmissionwillbedemonstrated.
+M85
+Reproduced withpermission of the copyright owner.Further reproductionprohibited without permission.
+
+M86
+GURALNIKETAL.
+METHODS
+Total time for a single interviewer to perform these tests in
+the home ranged from 10 to 15 minutes.
+Study populations. —Data for this report are from older
+Tests of standing balance included tandem, semi-tandem,
+adults in the original three communities of the Established
+andside-by-sidestands.For eachstand,theinterviewerfirst
+Populationsfor Epidemiologic Studies oftheElderly
+demonstrated the task, then supported one arm while partici-
+(EPESE), a collaborative longitudinal study of aging initiated
+pants positioned their feet, asked if they were ready, then
+and funded by the Epidemiology, Demography, and Biometry
+released the support and began timing. The timing was
+Program of the National Institute on Aging. Baseline house-
+stoppedwhenparticipants moved theirfeetor grasped the
+hold interviews,conducted between 1981 and 1983,obtained
+interviewer for support, or when 10 seconds had elapsed.
+information on demographic characteristics, medical history,
+Each participant began with the semi-tandem stand, in which
+the use of prescription and ronprescription drugs, health
+the heel of one foot was placed to the side of the first toe of
+behaviors,and functionalstatus.These interviews were
+the other foot, with the participant choosing which foot to
+sought from all people aged 65and older living in the
+place forward. Those unable to hold the semi-tandem posi-
+community in East Boston,Massachusetts,and Iowa and
+tionfor1Osecondswereevaluatedwiththefeetintheside-
+Washington counties in rural lowa, and a stratified random
+by-side position. Those able to maintain the semi-tandem
+sample in New Haven, Connecticut. In the three communi-
+positionfor 10 seconds were further evaluated with the feet
+ties, between 80 and 85% of those eligible participated in the
+in full tandem position,with the heel of one foot directly in
+baseline interview. The details. of the methods used in the
+frontof thetoesof theotherfoot.
+baseline surveys have been described previously (10).
+To test walking speed, an 8-foot walking course, with no
+At the sixth annual follow-up, conducted in 1988 and
+obstructions for an additional 2 feet at either end,was
+1989,information onhealth,functionalstatus,andmedical
+denoted by placing a rigid 8-foot carpenter's rule to the side
+careutilizationwas ascertainedin ahomeinterview.Perfor-
+of the course. Participants were instructed to‘‘walk to the
+mancemeasuresoffunctioningwereadded totheprotocol at
+other end of the course at your usual speed, just as if you
+that time. During the 6 years of follow-up, between 26.2 and
+were walking down the street to go to the store.'Partici-
+35.3% of participants died at the three sites. Of those not
+pants could use assistive devices if needed, and each partici-
+known to have died, follow-up six assessments were con-
+pant was timed for two walks. The faster of the two is used
+ducted by personal or proxy interview on between 91.5 and
+for analyses here.
+94.0% of persons who participated in the baseline interview
+To test the ability to rise from a chair (termed the chair
+(6,563/7,093atallsites,2,3452,563inEastBoston,2,547/
+stand),a straight-backedchair was placed next to a wall;
+2,711 in lowa, and 1,671/1,819 in New Haven). Among
+participants were asked to fold their arms across their chest
+these persons, 491 resided in a nursing home; 792 lived at
+and to stand up from the chair one time. If successful,
+home but required a proxy infcrmant and were not adminis-
+participants were asked to stand up and sit down five times as
+tered the performance measures uniformly across sites; and
+quickly as possible, and were timed from the initial sitting
+106 had a telephone interview. Thus, there were a total of
+position to the final standing position at the end of the fifth
+5,174 persons at all sites who were living at home and able to
+stand.
+respond personally to the sixth follow-up interview(East
+Categories of performance were created for each set of
+Boston, 1,800; Iowa, 2,101; New Haven, 1,273). Of this
+group, less than 1.5% in East Boston, 0.2% in Iowa, and
+unable to perform a task. For the 8-foot walk and repeated
+3.7% in New Haven refused to participate in one or more of
+chair stands,those who could not complete the task were
+the performance measures. The proportion of persons unable
+assigned a score of O.Those completing the task were
+to complete a task or who did not attempt it because they or
+assigned scores of 1 to 4, corresponding to the quartiles of
+the interviewer felt the task was potentially unsafe varied
+time needed to complete the task,with the fastest times
+according to the performance measure. No injuries resulted
+scored as 4. The three tests of standing balance were consid-
+fromtheadministrationoftheperformancetests.
+ered as hierarchical in difficulty in assigning a single score of
+Mortality was ascertained at all three sites through the end
+0 to 4 for standing balance (Table 1). A summary perfor-
+of 1989 through review of local obituary notices andlinkage
+mance scale was created by summing the category scores for
+with the National Death Index.Nursing home admissions
+the walking, chair stand, and balance tests.
+were ascertained in Iowa through 1990 by periodic visits to
+all area nursing homes.
+Self-reported physical functioning.—Activities of daily
+living (ADLs) used in these analyses were limited to those
+Physical performance measures.—Performance mea-
+that require lower extremity function as a major component.
+suresforthisstudywereadaptedfrompreviouslyused
+Participants were classified as having a disability in ADLs if
+measures (3,11-14), with the consideration that the assess-
+they needed help from a person or were unable to perform
+mentswouldbeadministeredbyasinglelayinterviewerina
+one or more of the following activities: walking across a
+home setting with limited unobstructed space.Interviewers
+small room, bathing, transferring from bed to chair, or using
+were specially trained in the administration of the perfor-
+the toilet (15,16). To assess higher level mobility, partici-
+mancemeasuresusedin thestudy.Toensureuniformityof
+pants were asked if they were able to walk up and down stairs
+administration, a videotape was produced; it provided de-
+to the second floor and walk a half mile without help (17).
+tailed instructions for administering and scoring the tests,as
+well as instructions on maintaining the safety of the subjects.
+Statistical analysis.—The reliability of the summary
+Reproduced withpermission of the copyright owner.Furtherreproductionprohibitedwithout permission.
+
+LOWEREXTREMITYPHYSICALPERFORMANCE
+M87
+Table 1. Categories of Performance in Tests of Standing Balance
+Side-by-
+Semi-tandem
+Full Tandem
+SideStand
+Stand
+Stand
+Category
+(seconds)
+(seconds)
+(seconds)
+n
+Percent
+0
+6-0
+<10
+486
+9.5%
+Tried but
+Tried but
+unable
+unable
+Not attempted
+Not attempted
+10
+6-0
+738
+14.5
+Tried but
+unable
+Not attempted
+2
+10
+0-2
+662
+13.0
+Tried but
+unable
+Not attempted
+3
+10
+3-9
+705
+13.8
+4
+10
+10
+2513
+49.2
+Total
+5104
+100.0
+performance scale was assessed, in terms of internal consist-
+depicted in Figures 1 and 2. Table 1 shows the distribution of
+ency, by computing Cronbach's alpha (18). The independent
+scores for the five categories assigned to performance on the
+associations of age, sex, and self-reported functioning with
+testsofstandingbalance.Justunder1o%wereunableto
+score on the summaryperformance scalewere evaluated
+hold the side-by-side position for 10 seconds and were
+using a multiple linear regression model. Rates of mortality
+assigned category O. Nearly half of participants were able to
+andnursinghomeadmissionwerecalculatedforeachpossi-
+maintain a full tandem stand for 10seconds and were
+ble score on the summary performance scale.Mortality
+assignedcategory4.Cutpointswereselectedonthefull
+surveillance continued through the end of 1989; nursing
+tandemstandso that categories2and3hadaboutequal
+home surveillancecontinued through theend of 1990.Be-
+numbers of persons in each.
+cause follow-up 6 assessments were performed over an 18-
+For reference purposes, distributions of performance on
+month period in 1988-1989, length of follow-up varied
+each test are provided for age and sex subgroups in Appen-
+considerably. Thus, rates were calculated per person year of
+dix Tables A1 to A3. For the 8-foot walk and the repeat
+follow-up and were age- and sex-adjusted using the direct
+chair stands,percent unable,and mean time and percentile
+method, with the total population serving as the standard
+distributions of time for those abletocomplete the task are
+population. The independent associations of self-report and
+shown.Cutpoints for the classification into categories of
+performancemeasuresoffunctionwithmortalityandnurs-
+performanceare alsoincluded.
+ing home admission were evaluated using Cox proportional
+Scores on the three performance tasks were significantly
+hazards regression models, with time of follow-up consid-
+correlated.Spearman correlation coefficientsfor the cate-
+eredasthetimefromfunctionalassessmenttodeathorthe
+gorical scores were: walking and chair stands, 0.48; walking
+end of 1989,whichever came first (for mortality analyses),
+and standing balance, 0.39; chair stands and standing bal-
+and the time from functional assessment to first nursing
+ance, 0.39 (all significant at p < .001). The summary
+home admission, death, or the end of 1990, whichever came
+performance scale,created by summing the category scores
+first (for the Iowa nursing home admission analyses). Over-
+on the three individual performance tests, ranged from 0 to
+all estimates of relative risk were calculated from propor-
+12,with a mean of 7.12, a median of 8, and an interquartile
+tional hazards models stratified by community,using the
+range of 5 (difference between 25th and 75th percentile).
+BLOCK option of the SAS PHGLM procedure to obtain
+The internal consistency of this scale, assessed as Cron-
+summary estimates across the communities (19).
+bach's alpha, was 0.76.
+Table 2 shows the percentage of persons reporting disabil-
+RESULTS
+ity in ADLs, walking one-half mile, and climbing stairs
+Figures1and2showthedistributionof timesforthe8-
+according to categories on the performance tests.Increas-
+foot walk and the repeat chair stands and the proportion
+ingly better performance on the timed walk, chair stands,
+unable to complete these tasks by age group and sex. Mean
+and tests of standing balance was associated with avery clear
+and median times for women were significantly longer than
+stepwise decrease in the proportion reporting disability.
+for men in both age groups for both of these tasks, and a
+greater proportion of womenwasunable tocomplete the
+tasks. Of note, however, is the large amount of overlap
+The summary performance score also showed a very strong
+between men and women and between the two age groups.
+association with measures of self-reported disability (Table
+The cutpoints used to classify categories of performance are
+3). The associations shown in Tables 2 and 3 were very
+Reproduced withpermissionof the copyright owner.Furtherreproductionprohibited without permission.
+
+M88
+GURALNIKETAL.
+40
+Age 71-79
+30
+Percent
+Sex
+Mean
+Median
+20
+Males
+4.0
+3.5
+Females
+4.7
+4.0
+10
+10
+15
+20
+25
+Unable
+40
+Age 80+
+30
+Percent
+Sex
+Mean
+Median
+Males
+20
+5.1
+4.3
+Females
+6.3
+5.0
+10
+5
+10
+15
+20
+25
+Unable
+Time (seconds)
+PerformanceTestCategories
+Figure 1.Distributionof times towalk8feet according to agegroup and sex.
+40
+Age 71-79
+30
+Sex
+Mean
+Median
+Percent
+Males
+13.2
+12.6
+20
+Females
+14.4
+13.7
+10
+0
+10
+20
+30
+40
+Unable
+40
+Age80+
+30
+Sex
+Mean
+Median
+Percent
+Males
+15.0
+14.0
+20
+Females
+16.1
+15.0
+10
+Q
+10
+20
+30
+40
+Unable
+Time (seconds)
+2
+1
+0
+PerformanceTestCategories
+Figure 2.Distribution of times to complete five chair stands according to age group and sex.
+Reproducedwithpermissionofthecopyrightowner.Furtherreproductionprohibitedwithoutpermission.
+
+LOWEREXTREMITYPHYSICALPERFORMANCE
+M89
+Table 2. Percent of Persons Reporting Need for Help in ADLs,
+Table 3. Percent of Persons Reporting Need for Help in ADLs,
+Walking 1/2 Mile,and Climbing Stairs According to
+Walking 1/2 Mile,and Climbing Stairs According to
+Performance Test Categories; All Sites Combined
+Performance Summary Measure;All Sites Combined
+Performance
+Walking 1/2
+Climbing
+Performance
+Test Score
+ADLs*
+Mile
+Stairs
+Test Summary
+Walking 1/2
+Climbing
+Score
+ADLs*
+Walk
+Mile
+Stairs
+0
+51.4
+86.6
+64.7
+0
+56.4
+91.3
+70.8
+1
+15.2
+61.3
+31.3
+1
+39.5
+91.4
+66.9
+2
+3.2
+32.5
+8.2
+2
+21.1
+82.1
+40.8
+3
+1.2
+17.2
+3.5
+3
+15.5
+66.8
+30.2
+4
+0.7
+7.0
+1.1
+4
+7.4
+57.3
+21.6
+Chair stands
+5
+4.9
+48.4
+15.5
+0
+25.9
+73.6
+42.5
+6
+3.2
+36.4
+9.3
+1
+5.2
+39.4
+11.2
+7
+3.3
+27.1
+6.7
+2
+2.2
+21.4
+6.8
+8
+1.2
+17.2
+3.8
+3
+0.8
+12.8
+3.0
+9
+1.4
+15.3
+1.9
+4
+0.6
+10.7
+1.7
+10
+0.5
+9.4
+2.4
+Standingbalance
+11
+0.2
+6.8
+0.2
+0
+42.0
+86.0
+59.8
+12
+0.0
+3.7
+0.9
+1
+11.5
+57.2
+25.7
+*Need help in one or more of the following: Walking, transferring,
+2
+4.2
+35.5
+12.1
+bathing, using the toilet.
+3
+2.4
+26.9
+6.6
+4
+1.6
+15.5
+3.5
+*Need help in one or more of the follwing: Walking, transferring,
+small toyield stable estimatesfor the5 agegroups of men
+bathing, using the toilet.
+and women and are not shown.
+Although the proportion of the variance in the summary
+performance score explained by the self-report measures used
+consistent across the three individual sites (results not
+here is quite high, there is still a substantial amount of
+shown).
+variability in performance that remains unexplained. This is
+To further assess the association of self-report and perfor-
+illustrated graphically in Figure 4, which shows the distribu-
+mance measures, multiple linear regression analyses were
+tion of summary performance scores for three groups defined
+performed that included age categories, sex,and self-report
+by self-reported disability: (a) ADL and mobility disability;
+items as independent variables and the summary perfor-
+(b) no ADL disability but mobility disability; (c) no ADL or
+mance score as the dependent variable (Table 4). InModel I,
+mobility disability. In this categorization, mobility disability
+self-report measures alone explained 42% of the variance in
+is defined as needing help in walking one-half mile, climbing
+the summary performance score. In Model II, adding age
+stairs, or both. This classification scheme is a hierarchical or
+and sex increased the proportion of thevariance explained to
+Guttman scale in that therewereveryfewparticipantsreport-
+46%. Of particular importance in interpreting the results of
+ModelIIisthat,even aftercontrollingforself-reportof
+These participants (< 1% of the sample) were not included in
+disability,both age and sex were associated with perfor-
+this analysis. The distributions for the three groups defined by
+mance. The indicator variables for age show that, after
+self-report are very different, yet there is a great deal of
+adjustment for self-reported disability, each higher age
+overlap. A small proportion of participants in the group with
+group scored lower on the summary performance scale. For
+thegreatest degree of self-reported disability had performance
+example, after adjusting for self-report, those age 75 to 79
+scores that were higher than some members of the group
+years scored 0.47 points lower on the summary performance
+reporting no disability. Summary performance scores for the
+scale than the reference group, those age 71 to 74 years.
+middle-disability group are spread across the entire spec-
+Those age 90 and older scored 2.11 points lower than the
+trum.
+reference group, after adjustment for self-report.
+Finally, the relative ability of self-report and performance
+measures to predict adverse outcomes was evaluated for
+This is illustrated graphically in Figure 3, which shows
+mortality and nursing home admission. Of the 5,174 persons
+actual mean summary performance scores according to age
+from the three sites considered in these analyses, 300 (5.8%)
+andsexfor(a)thosewithnoself-reporteddisabilityonthe
+died between the follow-up 6 assessment and the end of 1989.
+items considered here and (b) for those reporting the need for
+Average length of follow-up to death or the end of 1989was
+help only in walking one-half mile. For both these subgroups
+1.39 years. Figure 5a shows a stepwise decline in the age- and
+of participants there is a clear decline in summary perfor-
+sex-adjusted mortality rate with increasing score on the sum-
+mance score with age. In those reporting no disability,
+mary performance scale. The associations of age, self-re-
+women have mean summary performance scores about one-
+ported disability, and summary performance score with death,
+half point lower than men at all ages (Figure 3a). The
+as demonstrated using proportional hazards models, are
+difference between men and women is inconsistent for those
+shown for men and women in Table 5. In Model I, self-
+reporting the need for help only in walking one-half mile
+reported disabilities in ADLs and walking one-half mile are
+(Figure 3b). Other subgroups defined by self-report were to0
+significant predictors of death in men, and disability in walk-
+Reproduced withpermissionof the copyrightowner.Furtherreproductionprohibited withoutpermission.
+
+M90
+GURALNIKETAL.
+Table4.MultipleLinearRegressionModelShowingAssociation ofAge,Sex,
+andSelf-ReportedDisabilitywithSummaryPerformanceScale
+Model I
+Model II
+β
+SE
+β
+SE
+IndependentVariable
+Coefficient
+ofβ
+Coefficient
+ofβ
+Intercept
+8.1*
+0.04
+9.73*
+0.13
+Age 75-79
+-0.47*
+0.09
+Age 80-84t
+-1.11*
+0.10
+Age 85-89t
+-1.89*
+0.13
+Age 90+t
+-2.11*
+0.20
+Sex (female vs male)
+-0.41*
+0.07
+ADL(one ormore)
+-2.26*
+0.13
+-2.08*
+0.15
+Climbing stairs,needs help
+-2.28*
+0.13
+-2.17*
+0.12
+Walking 1/2 mile, needs help
+-2.84*
+0.09
+-2.46*
+0.09
+R2 = 0.42
+R2 = 0.46
+tCompared to reference group, age 71-74 years.
+*p<.001.
+(a)
+(b)
+10
+10
+Men
+Men
+- Women
+Women
+8
+8
+Mean Score
+Mean Score
+6
+D
+0
+71-7475-7980-8485-89
+90+
+71-7475-7980-8485-89
++06
+Age
+Age
+Figure 3. Mean scores on summary performance scale according to age group and sex for (a) those who report needing no help with activities of daily
+living,climbing stairs,andwalkingone-halfmile,and(b) those whoreport theycannotwalk one-half mile without helpbutneedno helpwith activitiesof
+daily living and climbing stairs.
+ing one-half mile is significant in women. In Model II, the
+A similar pattern was seen in analyses examining predic-
+summary performance score is significantly associated with
+tors of nursing home admission in lowa, the only site to have
+death, with those at the 25th percentile being more than two
+comprehensive assessment of nursing home admission after
+times more likely to die than those in the 75th percentile (5-
+the follow-up 6 assessment.Between the time of the follow-
+point difference in score). In Model IHl, in which self-report
+up 6 assessment in the home and the end of 1990,286/2097
+and performance measures are entered together, ADLs, walk-
+(13.6%) of Iowa participants entered a nursing home.Aver-
+ing one-half mile, and the summary performance score remain
+age length of follow-up to nursing home admission, death,
+significantly associated with mortality in men,but only the
+or the end of 1990 was 2.46 years. Figure 5b shows a general
+summary performance score reaches significance as a predic
+stepwise decline in the age- and sex-adjusted nursing home
+tor of mortality in women, with walking one-half mile almost
+admission rate with increasing score on the summary perfor-
+statistically significant (p = .056). In a subgroup analysis
+mance scale. Table 6 demonstrates in Model II that signifi-
+cant predictors of nursing home admission include both self-
+(summary performance score of 8 to 12), the summary perfor-
+report (the question on climbing stairs in men and the
+mance score was significantly associated with mortality
+question on walking one-half mile in women) and the sum-
+(results not shown).
+maryperformancescale.In an analysislimitedtothosewith
+Reproduced withpermissionof the copyrightowner.Furtherreproductionprohibited withoutpermission.
+
+LOWEREXTREMITYPHYSICALPERFORMANCE
+M91
+40 -
+Disability
+(a)
+Deaths per 100 Person Years
+5
+ADLsMobility
+Yes
+Yes
+30
+No
+Yes
+No
+No
+10.0
+7.2
+Percent
+6.4
+6.2
+5.7
+20
+2.7
+P5
+23456
+789101112
+10-
+PerformanceTestSummary Score
+(b)
+25
+22.5
+0
+8
+10
+omeAdmissions
+20
+19.6
+Score
+17.5
+Figure 4. Distribution of summary performance score for three groups
+Person
+15
+12.8
+defined by self-reported disability.Those with no mobility disability report
+11.6
+they can climb a flight of stairs and walk one-half mile without help.
+10
+6.0
+20
+a summary performance score of 8 to 12,this score was a
+56
+12
+significant predictor of nursing home admission (results not
+PerformanceTestSummaryScore
+shown).
+Figure 5. (a) Age- and sex-adjusted death rate according to summary
+performance score for East Boston,Iowa,and New Haven sites. (b) Age-
+DISCUSSION
+and sex-adjusted nursing home admission rate according to summary
+The performance measures of functioning administered
+performance scoreforIowa site.
+to this population aged 71 years and older assessed gait,
+balance, and lower extremity strength and endurance. These
+tests were found practical and safe for well-trained interview-
+of an ADL that might influence a participant's self-report.
+ers to administer in a home setting. The gait and balance tests
+Furthermore, two of the studies (21,22) were conducted on
+could potentiallyhaveled tofalls,and therepeatchair stand
+persons at the end of an acute care hospitalization,when
+test required a vigorous effort, but there was a high level of
+their ability to recognize their abilities and limitations might
+compliance and no injuries or adverse outcomes were encoun-
+have been reduced,especially for activities such as dressing
+tered. Results may be interpreted as continuous variables or,
+and bathing.
+in order to include individuals in the analyses who were
+Although our study was not designed to assess discordance
+unable to perform the tests, as categorical variables.
+between performance and self-report measures of the same
+Those age 80 and older had poorer performance than those
+task, discordance was found for assessments of walking. Of
+age 71-79, but the amount of overlap was great, with a large
+those unable to complete the measured walk(walk test cate-
+proportion of the older age group functioning at or above the
+gory 0, Table 2), 13.6% of persons stated they could walk a
+mean levels of the younger group. The prevalance of self-
+half mile without help. The apparent discordance in these 33
+reported disability has been found to be higher in older
+individuals may have multiple causes, including the partici-
+women than men (10,20).These results were consistent,
+pant misunderstanding the question or answering the question
+showing slightlyslower times for women and a higher
+with reference to his or her usual state of functioning while
+proportion of women in the older age group unable to
+suffering from a temporary incapacity, and the interviewer
+complete the tasks.However, there is considerable overlap
+miscoding the self-report response or the reason for nonper-
+here, as well.
+formance of the walk test.An analysis restricted to those
+A strong association was found between performance
+unable to perform the walk that compared those who stated
+measuresoflowerextremityfunctionandself-reporteddis-
+they could and could not walk a half mile found no differences
+ability in this study. The performance measures employed in
+between these two groups in cognitive functioning, depres-
+thisresearch werenot designed to examine objectively the
+sion, and educational status (analyses not shown).
+same tasks as assessed by the self-report measures. This has
+Rather than assessing the same task in several ways, the
+beendoneinseveralstudiesdesignedspecificallytocom-
+measures used in our study can probablybestbe conceptual-
+pare a participant's ability to complete standardized tasks
+ized as representing two points on the pathway from disease
+representing particular ADLs with their self-reported dis-
+to disability. In a framework proposed by an Institute of
+ability in these tasks(21-23).Thesestudiesfound asubstan-
+Medicine committee (24) and derived from the work of Nagi
+tialamountofdiscordancebetweenperformancetestsand
+(25), the pathway progresses from disease to impairment to
+self-report that may represent inaccurate reporting and mea-
+functional limitation to disability. The performance mea-
+surementerror,although there aresomelimitations inmak-
+sures are objective assessments of functional limitations
+ing these kinds of comparisons. The simple tests of perfor-
+(defined as a restriction or lack of ability to perform an action
+mance used in these studies could not fully assess all aspects
+or activity), while the self-report measures reflect disability
+Reproduced withpermissionof the copyright owner.Furtherreproductionprohibited without permission.
+
+M92
+GURALNIKETAL.
+Table 5. Relative Risks Relating Age, Self-Reported Disability, and Summary Performance Score to Mortality
+Model I
+Model II
+Model Il1
+Men
+Women
+Men
+Women
+Men
+Women
+Relative Risk*(95 percent confidence interval)
+Age (10 years)
+1.7 (1.3-2.1)
+1.7 (1.3-2.3)
+1.5 (1.1-2.0)
+1.5 (1.1-2.0)
+1.5 (1.1-2.0)
+1.5 (1.1-2.0)
+Disabled in:
+ADLs (one or more)
+1.9 (1.2-3.1)
+1.4 (0.9-2.2)
+1.7 (1.0-2.8)
+1.1 (0.6-1.7)
+Walking 1/2 mile
+2.2 (1.5-3.3)
+2.2 (1.5-3.3)
+1.7 (1.1-2.6)
+1.5 (1.0-2.3)
+Climbing stairs
+1.4 (0.92.3)
+1.3 (0.9-2.0)
+1.1 (0.7-2.0)
+1.0 (0.7-1.6)
+Summary performance
+2.3 (1.8-2.9)
+2.6 (2.0-3.5)
+1.6 (1.1-2.1)
+2.2 (1.6-3.2)
+score (5 points poorer)
+*Based on proportional hazards model.
+Table 6.RelativeRisks RelatingAge,Self-ReportedDisability,and SummaryPerformanceScore
+to Nursing Home Admission.Iowa EPESE.
+Model I
+Model II
+Model III
+Men
+Women
+Men
+Women
+Men
+Women
+Relative Risk*(95 percent confidence interval)
+Age (10 years)
+2.1 (1.5-2.9)
+2.3 (1.8-2.9)
+1.9 (1.42.6)
+1.9 (1.5-2.5)
+1.8 (1.3-2.4)
+1.9 (1.42.4)
+Disabled in:
+ADLs (one or more)
+1.7 (0.7-3.3)
+1.5 (1.0-2.4)
+1.1 (0.5-2.1)
+1.2 (0.8-2.0)
+Walking 1/2 mile
+2.3 (1.43.8)
+2.1 (1.5-2.8)
+1.2 (0.7-2.2)
+1.4 (1.0-2.0)
+Climbing stairs
+2.8 (1.5-5.1)
+1.7 (1.1-2.4)
+1.9 (1.0-3.4)
+1.2 (0.8-1.7)
+Summary performance
+3.4 (2.5-4.6)
+2.8 (2.2-3.6)
+2.7 (1.8-4.0)
+2.2 (1.6-3.0)
+score (5 points poorer)
+*Based on proportional hazards model.
+(defined as an inability or limitation in performing socially
+of just howmuch information theperformancemeasures add
+defined activities and roles). Since not all functional limita-
+tothe self-reportmeasures.
+tions are expected to lead to disability,a perfect correlation
+This report provides evidence that the performance mea-
+between the kind of performance measures employed here
+sures doindeed contributeinformation beyond that obtained
+and disability would not be expected.A fruitful line of
+from self-report. The most important finding here, that has
+research to improve our understanding of the pathway,
+not been previously demonstrated,is that a comprehensive
+however, is to identify other factors that influence the impact
+scale of lower extremity performance can provide informa-
+of functional limitations on disability.Jette and colleagues
+tion across the entire spectrum of functioning. This classi-
+have employed performance measures which assess joint
+fication of level of functioning appears to be valid, as
+rangeofmotionandhavedemonstratedtheassociationof
+evidenced by the clearly demonstrated gradients across the
+these measures with disability (11) and the impact of the
+summaryperformance scale of prevalence of self-reported
+change in these measures with change in disability (26).
+disabilities and incidence of nursing home admission and
+In regard to the pathway discussed above, it should be
+death. That those scoring 12 on the summary performance
+noted that the regression analyses used to evaluate the
+scale have a lowermortality than those scoring11,who have
+relationshipbetweenself-report andperformancemeasures
+a lower mortality than those scoring 10 (Figure 5) is quite
+remarkable. No self-reported measures of functioning have
+simply used to evaluate their cross-sectional association.
+been demonstrated that can define a gradient of risk for those
+Considering how few self-report items were used and their
+who not only are not disabled but rank at the highest end of
+limited response categories, it is striking how much of the
+the functional spectrum, although it is conceivable that self-
+report measures assessing very vigorous activities might
+plained. It is possible that even more of the variance in the
+work in this way.
+summary performance scalewould beexplained if these
+Other findings also support the value of performance
+items also assessed perceived level of difficulty or if addi-
+measures. For certain subgroups with identical self-report
+tionalself-reportitemswereusedthatevaluatedmoredif-
+profiles,there were systematic differences in performance
+ficult activities, such as those assessing vigorous and moder-
+related to age and sex (Figure 3). Within each of the three
+ate activities in the full Medical Outcomes Study instrument
+hierarchical levels of functioning defined by self-report there
+(27) or Reuben and colleagues’ Advanced Activities of
+was a wide distribution of functioning on the performance
+Daily Living (28). These findings raise the practical question
+tests (Figure 4). Even more refined self-report measures
+Reproduced withpermissionof the copyright owner.Furtherreproductionprohibited without permission.
+
+LOWEREXTREMITYPHYSICALPERFORMANCE
+M93
+wouldprobablynotappreciablyaffectrankingsderivedfrom
+nonsyncopal falls.A prospective study.JAMA 1989,261:2663-8.
+self-report, so it is likely that performance measures are
+4.Kelly-Hayes M, Jette AM, Wolf PA.D'Agostino RB, Odell PM.
+providing information not obtainable from self-report. This
+Functional limitations and disability among elders in the Framingham
+Study.AmJPublic Health 1992:82:841-5.
+is alsoevidencedintheanalysesofpredictorsofdeathand
+5.Williams ME, Gaylord SA,McGaghie WC.Timed manual perfor-
+nursing home admission (Tables 5 and 6),in which the
+mance in a community elderly population.J Am Geriatr Soc 1990;
+38:1120-6.
+dictor of these outcomes even after adjustment for self-
+6.Reuben DB,Siu AL.An objective measure of physical function of
+reported disability. These findings are consistent with find-
+elderly patients.The physical performance test.J Am Geriatr Soc
+1990;38:1105-12.
+ings from one of the earliest applications of performance
+7.Podsiadlo D,Richardson S. The timed ‘up and go"': a test of basic
+measures, in which a performance battery was more highly
+functional mobility for frail elderly persons. J Am Geriatr Soc 1991;
+predictive of death andhospitalization than self-report of
+39:142-8.
+disability (29). Other studies have shown the association of
+8.WeinerDK,Duncan PW,ChandlerJ,Studenski SA.Functional reach：
+performance measures with death (30) and nursing home
+a marker ofphysicalfrailty.JAm GeriatrSoc1992;40:203-7.
+9. Siu AL,Hays RD, Ouslander JG, et al. Measuring functioning and
+admission (31), but did not directly compare the influence of
+health in the very old.J Gerontol Med Sci 1993;48:M10-14.
+performance and self-report measures in a single model.
+10.Cornoni-Huntley J.Brock DB,Ostfeld A,Taylor JO,Wallace RB,
+Two studies of the predictors of falls found that performance
+eds.Established Populations for Epidemiologic Studies of the Elderly,
+measures were important predictors of this outcome,even
+Resource data book.NIH Pub.No.86-2443,1986.Bethesda,MD:
+National Institutes of Health.
+after adjustment for self-reported disability (2,3).
+11.Jette AM, Branch LG. Impairment and disability in the aged.J Chron
+This study has demonstrated that a short battery of perfor-
+Dis 1985;38:59-65.
+mancemeasures oflowerextremityfunction characterizes
+12.Csuka M, McCarty DJ.Simple method for measurement of lower
+extremity muscle strength.AmJ Med 1985;78:77-81.
+13. Tinetti ME. Performance oriented assessment of mobility problems in
+of functional status and predicts mortality and institutional-
+elderly patients.JAm Geriatr Soc 1986;34:119-26.
+ization across this spectrum. The research also supports the
+14.Cummings SR,Nevitt MC,Black DM,et al.The study of osteoporotic
+conclusions of other studies(4,30) that self-report and per-
+fractures:Amulticenter prospective study of predictors of hip and wrist
+forrnance measures complement one another,and that both
+fractures. In: Christiansen C, Johansen JS, Ris BJ, eds. Osteoporosis
+add to our understanding of older persons’functional status.
+1987.International Symposium on Osteoporosis.Copenhagen:Osteo-
+press ApS,1987:58-9.
+Standardized measurement of performance thus appears to
+15.Katz SC,Ford AB,Moskowitz RW,Jack BA,Jaffe MW.Studies of
+be a valuable addition to gerontologic assessment, but its
+illness in the aged. The index of ADL:A standardized measure of
+widespread use may be premature.Performance measures
+biological and psychosocial function. JAMA 1963;185:914-19.
+may prove useful in comparing the functional status of
+16.Branch LG,Katz S,Kniepmann K.Papsidero JA.A prospective study
+of functional status among community elders. Am J Public Health
+different populations and tracking function over time, but
+1984:74:266-8.
+these applications require additional methodologic work.
+17. Rosow I, Breslau N. A Guttman health scale for the aged. J Gerontol
+Self-report assessments require less training and are quicker
+1966;21:556-9.
+18. Spector PE. Summated rating scale construction. Newbury Park, CA.:
+research and clinical evaluation. The value of performance
+Sage Publications,1992.
+19.Harrell FE.The PHGLM procedure.In: SAS Institute,Inc.,SUGI
+measures in assessing requirements for care and placement
+supplemental library user's guide，Version 5 ed.Cary,NC: SAS
+needs of an individual patient can not be inferred from these
+Institute,Inc.，1986:437-66.
+population studies, and further investigation in this area
+20. Fulton JP, Katz S, Jack SS, Hendershot GE. Physical functioning of
+would also be valuable.
+the aged: United States, 1984.Vital Health Stat, Series 10. No.167.
+DHHS publication no.(PHS) 89-1595.Hyattsville,MD: National
+Center forHealth Statistics,March1989.
+21.Elam JT, Graney MJ, Beaver T.EI Derwi D,Applegate WB,Miller ST.
+ACKNOWLEDGMENTS
+Comparison of subjective ratings of function with observed functional
+The research on which this article is based was performed pursuant to
+ability of frail older persons. Am J Public Health 1991;81:1127-30.
+22.Sager MA，Dunham MC,Schwantes A,Mecum L,Halverson K,
+contract numbers N01-AG-0-2105,N01-AG-0-2106,andN01-AG-0-2107
+Marlowe D. Measurement of activities of daily living in hospitalized
+with the National Institute on Aging,NIH. The authors wish to acknowl-
+elderly: a comparison of self-report and performance based methods. J
+edge the important contribution of YongLee and Geane Schubert to the
+analysis of these data.
+Am GeriatrSoc1992;40:457-62.
+23.Dorevitch MI, Cossar RM, Bailey FJ,et al. The accuracy of self and
+The performance measure protocol, data entry form, and videotape used
+informant ratings of physical functional capacity in the elderly.J Clin
+to train interviewers are available from the first author.
+Epidemiol 1992;45:791-8.
+24.Pope AM, Tarlov AR, eds. Disability in America: Toward a national
+Address correspondence to Dr. Jack M. Guralnik, National Institute on
+agenda. Washington, DC: National Academy Press, 1991.
+Aging.7201 Wisconsin Ave.,Room 3C-309,Bethesda,MD 20892.
+25. Nagi SZ. An epidemiology of disability among adults in the United
+States.Milbank MemFund Q 1976;6:493-508.
+26. Jette AM, Branch LG, Berlin J. Musculoskeletal impairments and
+REFERENCES
+physical disablement among the aged.J Gerontol Med Sci
+1990;45:M203-8.
+1.Guralnik JM,Branch LG, Cummings SR, Curb JD.Physical perfor-
+27. Stewart AL, Ware JE. Measuring functioning and well-being. The
+mance measures in aging research.J Gerontol Med Sci 1989;44:
+Medical Outcomes Study Approach. Durham, NC: Duke University
+M141-6.
+Press, 1992.
+2. Tinetti ME, Speechley M, Ginter S. Risk factors for falls among
+28.Reuben DB,Laliberte L,Hiris J,Mor V.A hierarchical exercise scale
+elderly _persons living in the community. N Engl J Med 1988;
+to measure function at the Advanced Activities of Daily Living level.
+319:1701-7.
+JAm GeriatrSoc1990:38:855-61.
+3.Nevitt MC,Cummings SR,Kidd S,Black D.Risk factors for recurrent
+29.Kuriansky JB, Gurland BJ, Fleiss JL. The assessment of self-care
+Reproduced withpermissionof the copyright owner.Furtherreproductionprohibited withoutpermission.
+
+M94
+GURALNIKETAL.
+older persons at risk for increasing long term care services.JChron Dis
+ClinPsych1976;32:95-102.
+1984;37:705-11.
+30.Reuben DB,Siu AL,Kimpau S.The predictive validity of self-report
+and performance-basedmeasures of function and health.JGerontol
+MedSci1992;47:M106-10.
+ReceivedMarch8,1993
+31.Williams ME,Hornberger JC.A quantitative method of identifying
+Accepted June 17、1993
+Appendix
+Table A1.Performance on Timed 8-Foot Walk:Percentage Unable To Complete and Mean Times
+andPercentileTimesfor Those Completing the Task
+All
+Men
+Women
+71+
+71+
+71-79
+80+
+71+
+71-79
+80+
+n
+5097
+1785
+1239
+546
+3312
+2030
+1282
+Unable to complete
+(percent)
+4.9%
+4.2%
+3.3%
+6.2%
+5.3%
+3.2%
+8.7%
+Times (sec)
+Mean
+5.0
+4.4
+4.0
+5.1
+5.3
+4.7
+6.3
+Ist percentile
+19.0
+14.1
+12.7
+15.6
+20.1
+16.3
+24.3
+5th percentile
+10.3
+8.6
+7.6
+9.8
+11.4
+9.1
+15.3
+10th percentile
+7.9
+6.7
+6.1
+7.7
+8.7
+7.1
+10.9
+25th percentile
+5.7*
+4.9
+4.5
+5.7
+5.9
+5.3
+7.0
+50th percentile
+4.1*
+3.8
+3.5
+4.3
+4.3
+4.0
+5.0
+75th percentile
+3.2*
+3.0
+2.9
+3.4
+3.4
+3.2
+3.8
+90th percentile
+2.7
+2.5
+2.4
+3.0
+2.9
+2.8
+3.1
+95th percentile
+2.4
+2.3
+2.2
+2.6
+2.6
+2.5
+2.8
+99th percentile
+2.0
+1.9
+1.9
+2.1
+2.1
+2.0
+2.3
+*Used to define categories of performance.Category 1: ≥ 5.7 sec.;Category 2: 4.1-5.6 sec.;Category 3: 3.2-4.0 sec.;Category 4: ≤ 3.1 sec.
+TableA2.Performance onTimedRepeat ChairStands:PercentageUnableTo Complete andMeanTimes
+and Percentile Times for Those Completing the Task
+All
+Men
+Women
+71+
+71+
+71-79
+80+
+71+
+71-79
+80+
+n
+5106
+1786
+1239
+547
+3320
+2033
+1287
+Unable to complete
+(percent)
+21.6%
+17.7%
+13.3%
+27.6%
+23.7%
+16.4%
+35.2%
+Times (sec)
+Mean
+14.5
+13.7
+13.2
+15.0
+14.9
+14.4
+16.1
+Ist percentile
+30.0
+27.9
+26.6
+31.9
+31.9
+29.1
+35.6
+5th percentile
+23.2
+21.5
+20.2
+24.5
+24.1
+22.6
+26.6
+10th percentile
+20.4
+19.0
+18.0
+21.0
+21.1
+20.1
+23.3
+25th percentile
+16.7*
+15.4
+15.0
+17.3
+17.3
+16.6
+18.7
+50th percentile
+13.7*
+13.0
+12.6
+14.0
+14.1
+13.7
+15.0
+75th percentile
+11.2*
+10.8
+10.6
+11.5
+11.5
+11.1
+12.3
+90th percentile
+9.5
+9.2
+9.0
+10.0
+9.8
+9.5
+10.3
+95th percentile
+8.6
+8.3
+8.0
+9.0
+8.8
+8.6
+9.4
+99th percentile
+6.7
+6.6
+6.5
+7.2
+7.0
+6.8
+7.2
+*Used to define categories of performance. Category 1: ≥ 16.7 sec.; Category 2: 13.7-16.6 sec.; Category 3: 11.2-13.6 sec.; Category 4: ≤ 11.1 sec.
+Table A3.Distribution (%)of Performance Categories on Tests.of Standing Balance
+All
+Men
+Women
+Category*
+71+
+71+
+71-79
+80+
+71+
+71-79
++08
+0
+9.5
+7.9
+5.9
+12.5
+10.4
+5.7
+17.8
+1
+14.5
+10.5
+7.2
+18.0
+16.6
+12.0
+23.9
+2
+13.0
+10.6
+8.6
+15.0
+14.3
+12.6
+16.8
+3
+13.8
+12.6
+12.1
+12.3
+14.7
+15.4
+13.6
+4
+49.2
+58.9
+66.2
+42.3
+44.1
+54.3
+28.0
+100
+100
+100
+001
+100
+100
+100
+n
+5104
+1784
+1238
+546
+3320
+2030
+1290
+*SeeTable1 fordefinition of categories.
+Reproducedwithpermissionofthecopyrightowner.Furtherreproductionprohibitedwithoutpermission.
