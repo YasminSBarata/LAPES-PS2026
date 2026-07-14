@@ -9,8 +9,12 @@ langchain                # framework base (loaders, text splitters, abstrações
 langchain-community      # loaders de PDF/HTML/texto e integrações
 faiss-cpu                # vector store local, reprodutível
 sentence-transformers    # embeddings locais gratuitos — modelo: paraphrase-multilingual-MiniLM-L12-v2 (PT+EN)
-pypdf                    # extração de texto de PDF
+pypdf                    # extração de texto de PDF (PDFs com texto selecionável)
 python-dotenv            # carregar variáveis do .env
+
+# --- OCR (usado uma vez para o artigo Guralnik, que era um PDF-imagem) ---
+pymupdf                  # renderiza páginas de PDF como imagem
+rapidocr-onnxruntime     # motor de OCR local (modelos embutidos, sem dependência de sistema)
 
 # --- LLM + orquestração (PRÓXIMAS etapas) ---
 # langgraph              # orquestração dos agentes (entra na fase de agentes)
