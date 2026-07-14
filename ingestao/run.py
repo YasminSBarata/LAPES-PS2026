@@ -51,6 +51,7 @@ def main():
         texto = ler_documento(caminho)
         tipo = caminho.parent.name  # 'artigos' ou 'eldersync' (nome da subpasta)
         trecho = texto[:120].replace("\n", " ").strip()
+     # aqui ele corta um trecho dos 120 primeiros caracteres e imprime um resumo
 
         print(f"📄 {caminho.name}")
         print(f"   tipo: {tipo} | caracteres: {len(texto):,}")
