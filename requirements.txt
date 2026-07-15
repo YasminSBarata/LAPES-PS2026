@@ -5,10 +5,15 @@
 
 
 # --- Ingestão / RAG ---
-langchain                # framework base (loaders, text splitters, abstrações)
-langchain-community      # loaders de PDF/HTML/texto e integrações
-faiss-cpu                # vector store local, reprodutível
-sentence-transformers    # embeddings locais gratuitos — modelo: paraphrase-multilingual-MiniLM-L12-v2 (PT+EN)
+# Obs: o torch é puxado pelo sentence-transformers. Instale a versão CPU antes:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+langchain-text-splitters # picador de texto em chunks (medido em tokens)
+langchain-huggingface    # conecta o modelo de embedding ao LangChain
+langchain-community      # vector store FAISS
+faiss-cpu                # índice vetorial local, reprodutível
+sentence-transformers    # roda o modelo de embedding
+transformers             # tokenizador do modelo (usado como régua do chunking)
+# modelo de embedding: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (PT+EN)
 pypdf                    # extração de texto de PDF (PDFs com texto selecionável)
 python-dotenv            # carregar variáveis do .env
 
