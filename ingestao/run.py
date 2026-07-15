@@ -1,17 +1,29 @@
 """
-Pipeline de ingestão do ElderSync — ETAPA 1: ler os documentos do corpus.
+Pipeline de ingestão do ElderSync — ETAPAS 1, 2 e 3.
 
-Por enquanto este script apenas LÊ cada documento e imprime um resumo
-(nome, tipo, nº de caracteres e um trecho). Nas próximas etapas ele vai
-picar em chunks, gerar embeddings e salvar no índice FAISS.
+  Etapa 1: LER os documentos do corpus (PDF e Markdown/texto).
+  Etapa 2: PICAR cada documento em chunks (medidos em TOKENS), com metadados.
+  Etapa 3: gerar EMBEDDINGS e salvar o índice FAISS em disco.
+
+Rodar:  ./.venv/bin/python ingestao/run.py
 """
 
 from pathlib import Path
 from pypdf import PdfReader
+from transformers import AutoTokenizer
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
 
-# Pasta onde estão os documentos. Path(__file__) é o caminho deste arquivo;
-# .parent sobe uma pasta (de /ingestao para a raiz do projeto); depois entramos em /corpus.
+# --- Configurações fixas do pipeline ---
 CORPUS_DIR = Path(__file__).parent.parent / "corpus"
+INDICE_DIR = Path(__file__).parent.parent / "indice"
+MODELO = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+
+# Tamanho do chunk agora em TOKENS (não caracteres). 120 deixa folga sob a
+# janela de 128 tokens do modelo, garantindo que nenhum chunk seja cortado.
+TAMANHO_CHUNK = 120
+OVERLAP = 24
 
 
 def ler_pdf(caminho: Path) -> str:
@@ -22,7 +34,7 @@ def ler_pdf(caminho: Path) -> str:
 
 
 def ler_markdown(caminho: Path) -> str:
-    """Abre um arquivo de texto (.md) e devolve o conteúdo como string."""
+    """Abre um arquivo de texto (.md/.txt) e devolve o conteúdo como string."""
     return caminho.read_text(encoding="utf-8")
 
 
@@ -36,26 +48,53 @@ def ler_documento(caminho: Path) -> str:
         raise ValueError(f"Formato não suportado: {caminho.name}")
 
 
+# Picador que MEDE em tokens: usamos o tokenizador do próprio modelo como régua.
+# Assim o chunk_size=120 significa "120 tokens", e não "120 caracteres".
+tokenizador = AutoTokenizer.from_pretrained(MODELO)
+splitter = RecursiveCharacterTextSplitter.from_huggingface_tokenizer(
+    tokenizador,
+    chunk_size=TAMANHO_CHUNK,
+    chunk_overlap=OVERLAP,
+    separators=["\n\n", "\n", ". ", " ", ""],
+)
+
+
+def criar_chunks(texto: str, fonte: str, tipo: str) -> list:
+    """Pica um texto em chunks, colando os metadados (fonte + tipo) em cada um."""
+    return splitter.create_documents(
+        texts=[texto],
+        metadatas=[{"fonte": fonte, "tipo": tipo}],
+    )
+
+
 def main():
-    # Procura todos os arquivos dentro de corpus/ e subpastas (rglob = busca recursiva),
-    # ignorando os .gitkeep. Ordenamos para a saída sair sempre na mesma ordem.
+    # --- Etapas 1 e 2: ler e picar todos os documentos ---
     arquivos = sorted(
         caminho
         for caminho in CORPUS_DIR.rglob("*")
         if caminho.is_file() and caminho.name != ".gitkeep"
     )
-
     print(f"Encontrados {len(arquivos)} documentos em {CORPUS_DIR}\n")
 
+    todos_os_chunks = []
     for caminho in arquivos:
         texto = ler_documento(caminho)
-        tipo = caminho.parent.name  # 'artigos' ou 'eldersync' (nome da subpasta)
-        trecho = texto[:120].replace("\n", " ").strip()
-     # aqui ele corta um trecho dos 120 primeiros caracteres e imprime um resumo
+        chunks = criar_chunks(texto, fonte=caminho.name, tipo=caminho.parent.name)
+        todos_os_chunks.extend(chunks)
+        print(f"📄 {caminho.name}  →  {len(chunks)} chunks")
 
-        print(f"📄 {caminho.name}")
-        print(f"   tipo: {tipo} | caracteres: {len(texto):,}")
-        print(f"   início: {trecho}...\n")
+    print(f"\nTotal: {len(todos_os_chunks)} chunks.")
+
+    # --- Etapa 3: embeddings + índice FAISS ---
+    print(f"\nCarregando o modelo de embedding ({MODELO})...")
+    embeddings = HuggingFaceEmbeddings(model_name=MODELO)
+
+    print("Gerando embeddings e construindo o índice FAISS (pode levar ~1 min)...")
+    indice = FAISS.from_documents(todos_os_chunks, embeddings)
+
+    INDICE_DIR.mkdir(exist_ok=True)
+    indice.save_local(str(INDICE_DIR))
+    print(f"\n✓ Índice salvo em {INDICE_DIR}")
 
 
 if __name__ == "__main__":
