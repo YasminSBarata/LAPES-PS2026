@@ -21,13 +21,13 @@ python-dotenv            # carregar variáveis do .env
 pymupdf                  # renderiza páginas de PDF como imagem
 rapidocr-onnxruntime     # motor de OCR local (modelos embutidos, sem dependência de sistema)
 
-# --- LLM + orquestração (PRÓXIMAS etapas) ---
-# langgraph              # orquestração dos agentes (entra na fase de agentes)
-# langchain-openai       # LLM escolhido: gpt-4o-mini (habilitar quando o LLM entrar)
+# --- LLM + orquestração ---
+langchain-openai         # LLM escolhido: gpt-4o-mini (conectado ✓)
+# langgraph              # orquestração dos agentes (entra quando amarrar o fluxo)
 # langchain-huggingface  # alternativa local (Ollama) — troca no fim, se quiser
 
 # --- Busca web / fallback ---
-# tavily-python
+langchain-tavily         # busca web para o agente de fallback (conectado ✓)
 
 # --- Interface ---
 # streamlit
