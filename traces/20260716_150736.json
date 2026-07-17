@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-07-16T15:07:36",
+  "pergunta": "Como o ElderSync classifica o risco (faixas)?",
+  "pergunta_reformulada": "Como o ElderSync classifica as faixas de risco?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Como o ElderSync classifica as faixas de risco?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 7.5,
+      "limiar": 12.5,
+      "decisao": "rag",
+      "motivo": "melhor distância 7.50 <= limiar 12.5 (corpus responde → RAG)",
+      "fontes_recuperadas": [
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "respondedor",
+      "acao": "gerou a resposta a partir dos trechos do corpus, citando a fonte"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 7.497616291046143,
+  "rota": "rag",
+  "origem": "corpus",
+  "fallback_acionado": false,
+  "motivo_fallback": "melhor distância 7.50 <= limiar 12.5 (corpus responde → RAG)",
+  "trechos": [
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 7.5,
+      "previa": "estudo. Este instrumento avalia os níveis de cogniç ão dos idosos e a sua \npontuação compreende de zero a 30 pontos (BERTOLUCCI et al., 1994).  \n2. Instrumento para Caracterização dos Sujeitos (APÊNDI"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 7.77,
+      "previa": "A versão final da SPPB (V3 – APÊNDICE IV), após o pré-teste, foi então \ntestada numa amostra de 30 idosos residentes em ins tituição de longa \npermanência, a fim de avaliar a confiabilidade do i nstru"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 7.83,
+      "previa": "(ICC=0,88 a 0,92). A sensibilidade do instrumento f oi também avaliada, através da \ninvestigação do  efeito da idade (65-74, 75-84 e ≥85 anos) e do número de \neventos clínicos, em relação aos escores "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 7.84,
+      "previa": "confiabilidade foi analisada por meio do coeficient e alfa de Cronbach, e as outras \nduas, por meio do Coeficiente de Correlação Intra-classe (ICC).  \n \n \n3.2.1 Sujeitos e local da pesquisa \n \nA pesqu"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 7.88,
+      "previa": "A amostra foi constituída por 30 idosos que atende ram a todos os critérios \nde inclusão e exclusão, estabelecidos para o estudo . Os dados sócio-\ndemográficos são demonstrados na Tabela 1. \n \n \n \n \n "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 7.94,
+      "previa": "SAYERS et al. (2004b) utilizaram a SPPB como um dos instrumentos para \navaliar a validade e a confiabilidade do teste Late-Life Function and Disability \nInstrument (LLFDI) . Participaram do estudo 101"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 7.99,
+      "previa": "demonstrando sensibilidade da SPPB para esta variável. \n HOEYMANS et al. (1997) realizaram um estudo longit udinal, para avaliar a \nreprodutibilidade da SPPB e investigar quando a confiabilidade do te"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 8.13,
+      "previa": "não entendimento, relatado pelos avaliadores ou pel os idosos, a questão era \nreformulada e reaplicada. Para analisar a confiabil idade da versão final da SPPB, \nduas fisioterapeutas administraram o t"
+    }
+  ],
+  "resposta": "Não encontrei a informação sobre como o ElderSync classifica o risco em faixas nos trechos fornecidos."
+}

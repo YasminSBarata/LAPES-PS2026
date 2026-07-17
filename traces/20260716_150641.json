@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-07-16T15:06:41",
+  "pergunta": "Por quanto tempo o idoso deve manter cada posição no teste de equilíbrio da SPPB?",
+  "pergunta_reformulada": "Qual é a duração recomendada para cada posição no teste de equilíbrio da SPPB em idosos?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Qual é a duração recomendada para cada posição no teste de equilíbrio da SPPB em idosos?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 8.41,
+      "limiar": 12.5,
+      "decisao": "rag",
+      "motivo": "melhor distância 8.41 <= limiar 12.5 (corpus responde → RAG)",
+      "fontes_recuperadas": [
+        "ElderSync_v2_Reestruturacao.pdf",
+        "J American Geriatrics Society - February 1991 - Podsiadlo - The Timed  Up   Go   A Test of Basic Functional Mobility for.pdf",
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "respondedor",
+      "acao": "gerou a resposta a partir dos trechos do corpus, citando a fonte"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 8.410638809204102,
+  "rota": "rag",
+  "origem": "corpus",
+  "fallback_acionado": false,
+  "motivo_fallback": "melhor distância 8.41 <= limiar 12.5 (corpus responde → RAG)",
+  "trechos": [
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 8.41,
+      "previa": "21 \n  \nde marcha; 0,73 para o teste de levantar da cadeira  e 0,97 para o teste de \nequilíbrio, por meio do ICC (GURALNIK et al., 1995).  \nTem-se utilizado largamente a SPPB em pesquisas sobre o \nenve"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 9.05,
+      "previa": "2006). \nPara o teste de equilíbrio  o participante deve conseguir manter-se em \ncada posição ( side-by-side, semi-tandem stand, tandem stand ) por 10 segundos. \n19 \n  \nO escore é zero para o idoso inc"
+    },
+    {
+      "fonte": "ElderSync_v2_Reestruturacao.pdf",
+      "distancia": 9.56,
+      "previa": "cronometragem\n \nmanual\n \ndo\n \nfisioterapeuta.\n \n \n  \nPágina  10\n \nElderSync  v2.0  –  Documento  de  Reestruturação\n \n3.3  Módulo:  Teste  de  Levantar-se  da  Cadeira  (SPPB)  Este  módulo  correspon"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 9.59,
+      "previa": "sample of 38 elderly (78.95% were women), at an age  average of 71.26 years \n(SD=9, 03) and the involvement of 27 health care pr ofessionals. If more than 15% \nof therapists or patients reported diffi"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 9.7,
+      "previa": "no novo contexto cultural.  \nAssim, este trabalho também realizou a avaliação da  confiabilidade do \ninstrumento. Na amostra utilizada para avaliar a co nfiabilidade da SPPB, a média \nde idade dos suj"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 9.82,
+      "previa": "completa o teste. Atribui-se escore um, para tempo de levantar-se da cadeira, nas \ncinco vezes consecutivas, maior que 16,7 seg; escore dois, para  tempo entre 13,7 \na 16,6 seg; escore três, para temp"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 10.17,
+      "previa": "400 Meter Self-Paced Walk  apresentou moderada correlação com a SPPB \n(coeficiente de correlação de Pearson: r=0,74; p<0,001). O estudo demonstrou \ntambém que os idosos que apresentaram escore de 10, "
+    },
+    {
+      "fonte": "J American Geriatrics Society - February 1991 - Podsiadlo - The Timed  Up   Go   A Test of Basic Functional Mobility for.pdf",
+      "distancia": 10.19,
+      "previa": "Go” with balance, gait speed, and the Barthel Index of \nADL. \nRESULTS \nTen normal elderly volunteer control subjects (6 \nmen, 4 women; mean age 75.0; range 70-84 years) all \nperformed the timed “Up & "
+    }
+  ],
+  "resposta": "No teste de equilíbrio da SPPB, o idoso deve conseguir manter-se em cada posição (side-by-side, semi-tandem stand, tandem stand) por 10 segundos. (Fonte: Nakano_MarciaMariko_M.pdf)"
+}

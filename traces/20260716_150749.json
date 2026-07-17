@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-07-16T15:07:49",
+  "pergunta": "Me dê uma receita de bolo de cenoura.",
+  "pergunta_reformulada": "Você pode me fornecer uma receita de bolo de cenoura?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Você pode me fornecer uma receita de bolo de cenoura?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 20.9,
+      "limiar": 12.5,
+      "decisao": "web",
+      "motivo": "melhor distância 20.90 > limiar 12.5 (corpus não responde → fallback web)",
+      "fontes_recuperadas": [
+        "ElderSync_v2_Reestruturacao.pdf",
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "busca_web",
+      "acao": "fallback: buscou na web (Tavily) e gerou a resposta citando os links"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 20.904878616333008,
+  "rota": "web",
+  "origem": "web",
+  "fallback_acionado": true,
+  "motivo_fallback": "melhor distância 20.90 > limiar 12.5 (corpus não responde → fallback web)",
+  "trechos": [
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 20.9,
+      "previa": "16. Preste atenção: vou lhe dizer uma frase e quero que repita depois de \nmim   \nNEM AQUI, NEM ALI, NEM LÁ. (Considere somente se a repetição for \nperfeita) \n \n17. Agora pegue este papel com a mão dir"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 21.43,
+      "previa": "que fizesse o que está escrito. (FECHE OS OLHOS).  \n \n19. Gostaria que o senhor escrevesse uma frase de s ua escolha, qualquer \nnão \nprecisa ser grande. \n(Se não compreender, ajude com: alguma frase q"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 23.29,
+      "previa": "espontaneamente se corrigir) \n \n100 -7   \n93 -  7    \n86- 7   \n79 - 7  \n72 - 7  \n13.O senhor consegue se lembrar das 3 palavras que lhe pedi que \nrepetisse agora há ouco?     \n \n104 \n  \nCarro  \nVaso  "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 23.6,
+      "previa": "devem avaliar a equivalência de cada item. Podem ta mbém auxiliar na detecção \nde alguma inadequação da versão pré-final ao contexto cultural a que se destina.  \nSegundo DUARTE (2001), ambas as formas"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 23.83,
+      "previa": "32 \n  \ndimensões que o instrumento deve medir (MENEZES & N ASCIMENTO, 1999). \nEstatisticamente a validade de construto de um inst rumento pode ser verificada \natravés da evidência correlacional ou da "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 23.84,
+      "previa": "- 7 a 9 pontos \u0001 Moderado desempenho; \n- 10 a 12 pontos \u0001 Bom desempenho. \n20 \n  \nNo estudo de ROLLAND et al . (2006), a pontuação de 0 a 6 pontos foi \nconsiderada como de baixo desempenho, podendo se"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 23.84,
+      "previa": "de tempo e empenho, tanto pessoal quanto financeiro , para a elaboração de um \nnovo instrumento, adequando novos conceitos, seleci onando e escalonando os \nitens envolvidos, e testando sua validade. A"
+    },
+    {
+      "fonte": "ElderSync_v2_Reestruturacao.pdf",
+      "distancia": 23.96,
+      "previa": "Gráfico  de  linha  com  dois  eixos  \nTempo  do  teste  de  5  repetições  e  ângulo  médio  de  inclinação  anterior  por  sessão,  permitindo  avaliar  se  o  ganho  de  força  está  refletido  tan"
+    }
+  ],
+  "resposta": "Aqui está uma receita de bolo de cenoura:\n\n**Ingredientes:**\n- 3 cenouras médias\n- 3 ovos\n- 1 xícara de óleo de canola\n- 2 xícaras de açúcar\n- 2 xícaras de farinha de trigo\n- 1 pitada de sal\n- 1 colher de sopa de fermento em pó\n\n**Modo de Preparo:**\n1. No liquidificador, coloque as cenouras, os ovos, o óleo e o açúcar. Bata até obter uma mistura homogênea.\n2. Em uma tigela, misture a farinha de trigo, o sal e o fermento.\n3. Despeje a mistura do liquidificador na tigela com os ingredientes secos e misture bem.\n4. Coloque a massa em uma forma untada e leve ao forno pré-aquecido a 180°C por cerca de 40 minutos ou até que um palito saia limpo.\n\nVocê pode finalizar com uma cobertura de chocolate, se desejar.\n\nFontes: \n- [Receitas Globo](https://receitas.globo.com/tipos-de-prato/bolos/bolo-de-cenoura-de-liquidificador-4e80cb6a8811965be7003c43.ghtml)\n- [TudoGostoso](https://www.tudogostoso.com.br/receita/23-bolo-de-cenoura.html)"
+}

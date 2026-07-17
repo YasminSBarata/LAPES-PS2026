@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-07-16T15:06:48",
+  "pergunta": "Quais fatores aumentam o risco de quedas em idosos?",
+  "pergunta_reformulada": "Quais são os fatores que elevam o risco de quedas em idosos?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Quais são os fatores que elevam o risco de quedas em idosos?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 6.98,
+      "limiar": 12.5,
+      "decisao": "rag",
+      "motivo": "melhor distância 6.98 <= limiar 12.5 (corpus responde → RAG)",
+      "fontes_recuperadas": [
+        "Nakano_MarciaMariko_M.pdf",
+        "WHOGlobalReportonFalls PreventioninOlderAge.pdf"
+      ]
+    },
+    {
+      "agente": "respondedor",
+      "acao": "gerou a resposta a partir dos trechos do corpus, citando a fonte"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 6.97727632522583,
+  "rota": "rag",
+  "origem": "corpus",
+  "fallback_acionado": false,
+  "motivo_fallback": "melhor distância 6.98 <= limiar 12.5 (corpus responde → RAG)",
+  "trechos": [
+    {
+      "fonte": "WHOGlobalReportonFalls PreventioninOlderAge.pdf",
+      "distancia": 6.98,
+      "previa": "England Journal of Medicine, 334(23):1519-\n1525.\n27. Rubenstein LZ (2006). Falls in older people: \nepidemiology, risk factors and strategies for \nprevention. Age Ageing, 35-S2:ii37-ii41.\n28. Stevens J"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 7.6,
+      "previa": "Assim, avanços na prevenção e tratamento de incapac idades e de outras \ncondições podem trazer grandes benefícios para a sa úde física dos idosos; uma \nvez que se configuram como estratégias para adia"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 8.06,
+      "previa": "cardiovasculares e comorbidades (MELZER et al ., 2005), fatores ambientais \n(SHUMWAY-COOK et al ., 2005), saúde mental do indivíduo (UOTINEN et al ., \n2005), e incapacidade física, apontada como a pio"
+    },
+    {
+      "fonte": "WHOGlobalReportonFalls PreventioninOlderAge.pdf",
+      "distancia": 8.46,
+      "previa": "targeted prevention efforts are shown to be \ncost-effective (9, 10, 11, 12).  Most falls and \nresulting injuries among older persons are \nshown to result from a combination of age \nand disease-related"
+    },
+    {
+      "fonte": "WHOGlobalReportonFalls PreventioninOlderAge.pdf",
+      "distancia": 8.5,
+      "previa": "can greatly increase the likelihood of select -\ning an appropriate prevention or treatment \nstrategy that is targeted to meet the needs \nof the individual older person.\nPhysical environments: There is"
+    },
+    {
+      "fonte": "WHOGlobalReportonFalls PreventioninOlderAge.pdf",
+      "distancia": 8.5,
+      "previa": "ing cause of injury, treatment costs and \ndeath in virtually all regions of the world.  \nThe WHO Active Ageing Framework \nrecognizes that the injuries sustained as a \nconsequence of a fall in old age "
+    },
+    {
+      "fonte": "WHOGlobalReportonFalls PreventioninOlderAge.pdf",
+      "distancia": 8.54,
+      "previa": "low education, inadequate housing, lack of \nsocial interaction, limited access to health \nand social care especially in remote ar -\neas, and lack of community resources (see \nChapter 3 for further inf"
+    },
+    {
+      "fonte": "WHOGlobalReportonFalls PreventioninOlderAge.pdf",
+      "distancia": 8.73,
+      "previa": "Risk factors for falls among elderly persons \nliving in the  community. New England \nJournal of Medicine, 319:1701-1707.\n6. Downton JH, Andrews K (1991). Prevalence, \ncharacteristics and factors assoc"
+    }
+  ],
+  "resposta": "Os fatores que aumentam o risco de quedas em idosos incluem uma combinação de condições relacionadas à idade e doenças, além da interação do indivíduo com seu ambiente social e físico. Especificamente, os seguintes fatores foram identificados:\n\n1. **Condições de saúde**: Doenças crônicas e comorbidades, como problemas cardiovasculares, podem aumentar o risco de quedas (Trecho 3 — fonte: Nakano_MarciaMariko_M.pdf).\n\n2. **Fatores ambientais**: A estrutura e a natureza do ambiente físico onde o idoso vive podem influenciar significativamente a probabilidade de quedas. Ambientes que não são \"amigáveis\" para idosos podem aumentar o risco (Trecho 5 — fonte: WHOGlobalReportonFalls PreventioninOlderAge.pdf).\n\n3. **Fatores comportamentais**: Mudanças no comportamento, como a adoção de um estilo de vida saudável, são essenciais para evitar quedas. Isso inclui não fumar, consumir álcool de forma moderada e manter um peso saudável (Trecho 7 — fonte: WHOGlobalReportonFalls PreventioninOlderAge.pdf).\n\n4. **Múltiplos fatores de risco**: O risco de quedas é significativamente maior para aqueles que apresentam múltiplos fatores de risco (Trecho 4 — fonte: WHOGlobalReportonFalls PreventioninOlderAge.pdf).\n\nEsses fatores, quando combinados, podem aumentar consideravelmente a probabilidade de quedas e lesões em idosos."
+}

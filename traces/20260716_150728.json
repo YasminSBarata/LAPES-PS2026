@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-07-16T15:07:28",
+  "pergunta": "O que a dissertação da Nakano adaptou/validou para o português?",
+  "pergunta_reformulada": "Quais adaptações ou validações para o português foram realizadas na dissertação da Nakano?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Quais adaptações ou validações para o português foram realizadas na dissertação da Nakano?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 10.73,
+      "limiar": 12.5,
+      "decisao": "rag",
+      "motivo": "melhor distância 10.73 <= limiar 12.5 (corpus responde → RAG)",
+      "fontes_recuperadas": [
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "respondedor",
+      "acao": "gerou a resposta a partir dos trechos do corpus, citando a fonte"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 10.73488998413086,
+  "rota": "rag",
+  "origem": "corpus",
+  "fallback_acionado": false,
+  "motivo_fallback": "melhor distância 10.73 <= limiar 12.5 (corpus responde → RAG)",
+  "trechos": [
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 10.73,
+      "previa": "instrumentos em diferentes populações (GULLEMIN, et al., 1993). \nRecentemente importantes questionários ou escalas f oram adaptados \nculturalmente e validados para a língua portuguesa (CICONELLI, 1997"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 12.48,
+      "previa": "arduamente cada item da SPPB.  \nSegundo GUILLEMIN et al. (2005) esse é o argumento que comprova que o \ninstrumento estudado providencia equivalência cultu ral quando comparado com o \n62 \n  \noriginal. "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 12.51,
+      "previa": "Este exemplar corresponde à redação final \nda dissertação defendida por Márcia Mariko \nNakano e aprovada pela Comissão \nJulgadora.             Data:____/_____/_____ \n \nAssinatura(orientador):_________"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 12.68,
+      "previa": "SCIENCES. v. 55 A, n. 11, p. M691 – M697, 2000. \n \nPEREIRA, G.I.N. Tradução e Validação para a Língua Portuguesa dos \nInatrumentos GERD-HRQL, HBQOL e GSAS Específicos pa ra Avaliação de \nQualidade de "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 12.85,
+      "previa": "apresentou boa confiabilidade nos idosos estudados,  ensejando recomendar \noutras análises psicométricas, a fim de se confirma r a validade deste instrumento \nna população idosa brasileira.  \n \nPalavr"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 12.86,
+      "previa": "al., 1995).  \nConsiderando que a literatura internacional tem apo ntado a SPPB como \ninstrumento eficaz e muito utilizado, o presente es tudo propõe-se a adaptá-lo \nculturalmente para a língua portugu"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 12.87,
+      "previa": "2007 \n ii \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n iii \n \n UNIVERSIDADE ESTADUAL DE CAMPINAS  \nFACULDADE DE EDUCAÇÃO  \n \nDISSERTAÇÃO DE MESTRADO  \n \n \n VERSÃO BRASILEIRA DA SHOR"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 12.95,
+      "previa": "física desses indivíduos (GOMES, 2003; MIYAMOTO et al., 2004). \nExistem critérios e procedimentos para a tradução e  adaptação cultural de \ninstrumentos de medida. Assim, é necessário que, al ém da tr"
+    }
+  ],
+  "resposta": "A dissertação de Márcia Mariko Nakano adaptou culturalmente e validou para a língua portuguesa a Short Physical Performance Battery (SPPB). O estudo avaliou a confiabilidade do instrumento na população idosa brasileira, demonstrando que a SPPB é eficaz e amplamente utilizada para avaliar a funcionalidade dos membros inferiores (MMII) em idosos (Trechos 5, 6 e 7). Além disso, a pesquisa também abordou a importância da adaptação cultural e da avaliação das propriedades psicométricas do instrumento (Trecho 8). \n\nFonte: Nakano_MarciaMariko_M.pdf."
+}
