@@ -30,7 +30,7 @@ langchain-openai         # LLM escolhido: gpt-4o-mini (conectado ✓)
 langchain-tavily         # busca web para o agente de fallback (conectado ✓)
 
 # --- Interface ---
-# streamlit
+streamlit                # interface web de chat (conectada ✓)
 
 # --- Observabilidade / avaliação (diferenciais) ---
 # langfuse
