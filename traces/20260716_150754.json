@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-07-16T15:07:54",
+  "pergunta": "Qual a cotação do dólar hoje?",
+  "pergunta_reformulada": "Qual é a cotação do dólar atualmente?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Qual é a cotação do dólar atualmente?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 18.46,
+      "limiar": 12.5,
+      "decisao": "web",
+      "motivo": "melhor distância 18.46 > limiar 12.5 (corpus não responde → fallback web)",
+      "fontes_recuperadas": [
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "busca_web",
+      "acao": "fallback: buscou na web (Tavily) e gerou a resposta citando os links"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 18.455398559570312,
+  "rota": "web",
+  "origem": "web",
+  "fallback_acionado": true,
+  "motivo_fallback": "melhor distância 18.46 > limiar 12.5 (corpus não responde → fallback web)",
+  "trechos": [
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 18.46,
+      "previa": "valor de alfa (0,72), próximo ao valor α =0,76, encontrado no estudo de GURALNIK \net al.  (1994a), por meio do coeficiente alfa de Cronbach. Segundo HATCHER \n(1994), os valores acima de 0,70 são consi"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 18.67,
+      "previa": "A SPPB é uma preditora forte e consistente de declínio fu ncional, quando \ncomparada com o auto-relato (STUDENSKI  et al ., 2003). OSTIR  et al . (2002) \nacrescentam ainda a alta validade das medidas "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 18.69,
+      "previa": "sobre os pacientes, entrevistas gravadas ou entrevistas ao vivo.  \n31 \n  \nc) Consistência interna \nEsta medida relaciona-se com a homogeneidade intern a dos itens da \nescala medindo o mesmo evento, ou"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 18.86,
+      "previa": "interobservador e intra-observador, avaliada por me io do coeficiente de correlação \nintraclasse (ICC), uma variação de 0,89 a 1,00 (p< 0,01) e 0,83 a 0,92 (p< 0,01), \nrespectivamente. \n \n- Medida de "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 18.96,
+      "previa": "90 \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n91 \n  \n9. ANEXOS \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n92 \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 19.0,
+      "previa": "SPPB Total  6,56 (±3,05) 6,90 (±3,12)     6,5           7   1 – 12  \n±± ±±Dp = Desvio padrão; Teste T-pareado entre as médias  do total da SPPB no teste-reteste, \np=0,245; *Teste/Reteste mesmos valore"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 19.04,
+      "previa": "obtém-se um escore total mínimo de 18 e o máximo de  126 pontos, que \ncaracterizam os níveis de dependência pelos sub-esc ores. A MIF pode ser \naplicada ou sob forma de observação direta do profi ssio"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 19.05,
+      "previa": "avaliado duas vezes nos mesmos indivíduos, após determinado período de tempo, \ngeralmente entre uma ou duas semanas, GUILLEMIN et al.  (2005) chegaram a \nutilizar quatro semanas de intervalo entre o t"
+    }
+  ],
+  "resposta": "A cotação do dólar hoje varia conforme as fontes consultadas. Aqui estão algumas cotações:\n\n- R$ 5,07 (comercial) - [Dólar Hoje](https://dolarhoje.com)\n- R$ 5,21 (comercial) - [Remessa Online](https://www.remessaonline.com.br/cotacao/cotacao-dolar)\n- R$ 5,1686 (comercial) - [Investing.com](https://br.investing.com/currencies/usd-brl)\n- R$ 5,10 (comercial) - [Wise](https://wise.com/br/currency-converter/dolar-hoje)\n\nAs cotações podem variar ao longo do dia, então é importante verificar a fonte para a informação mais atualizada."
+}

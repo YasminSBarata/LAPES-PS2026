@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-07-16T15:07:18",
+  "pergunta": "Como configurar um servidor nginx?",
+  "pergunta_reformulada": "Como posso configurar um servidor Nginx?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Como posso configurar um servidor Nginx?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 22.12,
+      "limiar": 12.5,
+      "decisao": "web",
+      "motivo": "melhor distância 22.12 > limiar 12.5 (corpus não responde → fallback web)",
+      "fontes_recuperadas": [
+        "ElderSync_v2_Reestruturacao.pdf",
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "busca_web",
+      "acao": "fallback: buscou na web (Tavily) e gerou a resposta citando os links"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 22.118576049804688,
+  "rota": "web",
+  "origem": "web",
+  "fallback_acionado": true,
+  "motivo_fallback": "melhor distância 22.12 > limiar 12.5 (corpus não responde → fallback web)",
+  "trechos": [
+    {
+      "fonte": "ElderSync_v2_Reestruturacao.pdf",
+      "distancia": 22.12,
+      "previa": "para\n \nfuncionar\n \ncomo\n \numa\n \nferramenta\n \nde\n \nregistro\n \ndigital\n \ndos\n \ntestes\n \npadronizados\n \nque\n \njá\n \nsão\n \naplicados\n \npresencialmente\n \nna\n \nclínica.\n A  nova  proposta  transforma  o  Eld"
+    },
+    {
+      "fonte": "ElderSync_v2_Reestruturacao.pdf",
+      "distancia": 22.14,
+      "previa": "teste\n \nindependente\n \ne\n \nnão\n \nsoma\n \nao\n \nSPPB,\n \nmas\n \ndeve\n \nser\n \nexibido\n \njunto\n \nna\n \nvisualização\n \nda\n \nsessão.\n  \nPágina  15\n \nElderSync  v2.0  –  Documento  de  Reestruturação\n \n5.  Estru"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 22.81,
+      "previa": "que isto atrapalhe à continuidade do seu atendiment o neste serviço, ou seja, se quiser \ndesistir de participar deste estudo, não sofrerá NE NHUM prejuízo no seu atendimento no \nServiço de Geriatria  "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 23.01,
+      "previa": "multidimensional, podendo ser utilizada para trazer  resultados quanto ao \ntratamento, como forma de planejamento terapêutico sendo muito utilizado em \nprotocolos de geriatria e gerontologia na pratic"
+    },
+    {
+      "fonte": "ElderSync_v2_Reestruturacao.pdf",
+      "distancia": 23.28,
+      "previa": "o\n \nnovo\n \ncontexto\n \nclínico.\n \nCada\n \npaciente\n \nterá\n \nseus\n \ndados\n \ncadastrais\n \ne\n \nhistórico\n \ncompleto\n \nde\n \nsessões\n \nde\n \nteste.\n \n5.1.3  Perfil  do  Paciente  Página  com  visão  geral  do"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 23.3,
+      "previa": "de tempo e empenho, tanto pessoal quanto financeiro , para a elaboração de um \nnovo instrumento, adequando novos conceitos, seleci onando e escalonando os \nitens envolvidos, e testando sua validade. A"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 23.37,
+      "previa": "obtém-se um escore total mínimo de 18 e o máximo de  126 pontos, que \ncaracterizam os níveis de dependência pelos sub-esc ores. A MIF pode ser \naplicada ou sob forma de observação direta do profi ssio"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 23.38,
+      "previa": "acrescentam que esta função é fundamental não só pa ra realizar ABVDs como \ntambém para as atividades instrumentais de vida diá ria AIVDs, e o seu \ncomprometimento pode prever o início de incapacidad "
+    }
+  ],
+  "resposta": "Os resultados da busca não fornecem informações específicas sobre como configurar um servidor Nginx. Eles mencionam aspectos gerais sobre a instalação e configuração, mas não detalham o processo completo. Portanto, não posso responder à sua pergunta com base nas informações disponíveis."
+}

@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-07-16T15:08:13",
+  "pergunta": "Qual a fórmula química da água?",
+  "pergunta_reformulada": "Qual é a fórmula química da água?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Qual é a fórmula química da água?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 21.14,
+      "limiar": 12.5,
+      "decisao": "web",
+      "motivo": "melhor distância 21.14 > limiar 12.5 (corpus não responde → fallback web)",
+      "fontes_recuperadas": [
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "busca_web",
+      "acao": "fallback: buscou na web (Tavily) e gerou a resposta citando os links"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 21.13625717163086,
+  "rota": "web",
+  "origem": "web",
+  "fallback_acionado": true,
+  "motivo_fallback": "melhor distância 21.14 > limiar 12.5 (corpus não responde → fallback web)",
+  "trechos": [
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 21.14,
+      "previa": "p<0,0001), apresentando valores semelhantes aos enc ontrados na versão \nbrasileira (ICC=0,97 e 0,98, respectivamente com p<0,0001). Já os coeficientes do \ndomínio equilíbrio e do total da SPPB, que na"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 21.4,
+      "previa": "valor apresentado foi inferior (ICC=0,562) aos outr os três valores. Entretanto, \nhouve concordância significativa para todos os iten s, avaliados pelo A1 no teste e \nno reteste (p<0,001).   \n \n \n \n \n"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 21.48,
+      "previa": "principal e medicamentos em uso.  \n3. Versão Brasileira da Short Physical Performance Battery – SPPB  \n(APÊNDICE IV). Foi aplicada a versão final, resulta nte das etapas do processo \nmetodológico adot"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 21.84,
+      "previa": "concordância entre as avaliações do A1, realizadas no teste e no reteste. As \nconcordâncias estão separadas por domínio e para o total da SPPB.  \n \n Tabela 5 – Valores de concordância no teste-retest "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 21.84,
+      "previa": "32 \n  \ndimensões que o instrumento deve medir (MENEZES & N ASCIMENTO, 1999). \nEstatisticamente a validade de construto de um inst rumento pode ser verificada \natravés da evidência correlacional ou da "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 21.85,
+      "previa": "a) Validade de Construto \nA validade de construto ou de conceito é primordial  para a validade dos \ninstrumentos, pois permite a verificação direta da hipótese de legitimidade da \nrepresentação dos tr"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 21.93,
+      "previa": "adotadas\u0007as\u0007etapas\u0007metodológicas\u0007recomendadas\u0007pela\u0007 literatura\u0007especializada,\u0007como:\u0007tradução,\u0007\nretro=tradução,\u0007 avaliação\u0007 por\u0007 um\u0007 comitê\u0007 de\u0007 juízes,\u0007pré=teste\u0007 e\u0007 análise\u0007 da\u0007 confiabilidade\u0007 do\u0007\ni"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 21.95,
+      "previa": "propriedades de medida importante a ser analisada. Segundo GUILLEMIM (1995) \né a capacidade de um instrumento medir o que se pro põe medir. A confiabilidade \né necessária para a validade, mas não é, p"
+    }
+  ],
+  "resposta": "A fórmula química da água é H2O, o que significa que cada molécula de água é formada por dois átomos de hidrogênio e um átomo de oxigênio. \n\nFontes:\n- https://www.ck12.org/flexi/pt-br/ciencias-fisicas/formula-quimica/qual-e-a-formula-quimica-da-agua\n- https://pt.wikipedia.org/wiki/%C3%81gua\n- https://www.saaemacaubas.ba.gov.br/material-educativo/composicao-da-agua-a-estrutura-fundamental-do-h2o\n- https://www.tiktok.com/@douglasmatos_oficial/video/7367790754778926341"
+}

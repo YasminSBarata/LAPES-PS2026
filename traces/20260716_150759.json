@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-07-16T15:07:59",
+  "pergunta": "Quais os efeitos colaterais da vacina da gripe?",
+  "pergunta_reformulada": "Quais são os efeitos colaterais associados à vacina contra a gripe?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Quais são os efeitos colaterais associados à vacina contra a gripe?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 17.9,
+      "limiar": 12.5,
+      "decisao": "web",
+      "motivo": "melhor distância 17.90 > limiar 12.5 (corpus não responde → fallback web)",
+      "fontes_recuperadas": [
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "busca_web",
+      "acao": "fallback: buscou na web (Tavily) e gerou a resposta citando os links"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 17.897552490234375,
+  "rota": "web",
+  "origem": "web",
+  "fallback_acionado": true,
+  "motivo_fallback": "melhor distância 17.90 > limiar 12.5 (corpus não responde → fallback web)",
+  "trechos": [
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 17.9,
+      "previa": "SPPB em uma população não americana, sugerindo que o va lor da SPPB é \nindependente do estilo de vida e do lugar (ambiente ). Além disso, este estudo \nconfirmou as informações a respeito da utilização"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 18.04,
+      "previa": "funcionais não relatados pelo paciente ou pelos fam iliares. Auxiliam ainda nas \nestratégias de intervenção, especialmente em grupos  de alto risco, os quais \npodem beneficiar-se da avaliação simples "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 18.08,
+      "previa": "independentemente, do que pelo diagnóstico de doenç as específicas dado por \nseus médicos ou clínicos.  \n2 \n  \nA funcionalidade pode ser avaliada de forma direta (testes de desempenho) \ne indireta (qu"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 18.53,
+      "previa": "WALSTON et al.,  2002), uma vez que os efeitos da funcionalidade do s membros \ninferiores (MMII) demonstram ser preditivos de inca pacidades e morte, como \n3 \n  \ncitado por CLARKE & GEORGE (2005). \nSe"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 18.64,
+      "previa": "condução de tratamentos clínicos e estudos epidemio lógicos (GURALNIK et al ., \n1995; PERERA et al., 2005, 2006).  \nAssim, torna-se necessária a disponibilização de um  instrumento de \navaliação do de"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 18.74,
+      "previa": "TINETTI (1986) demonstrou um coeficiente de correla ção interobservador \nde 0,85, excelente sensibilidade (93%) e baixa espe cificidade (11%). Possui \nmoderada acurácia preditiva de quedas (61%) quand"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 18.89,
+      "previa": "constituir um viés tanto para a prática clínica com o para a pesquisa (GURALNIK & \nWINOGRAD, 1994; RICCI et al., 2005).  \nA avaliação direta, entretanto, muitas vezes não é utilizada ou adotada em \ntr"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 18.92,
+      "previa": "al., 2004a). A identificação precoce deste início sutil, apontado como limitação pré-\nclinica, é particularmente útil para o rastreamento  de candidatos à prevenção \n(FERRUCCI et al., 2000a). \nComo a "
+    }
+  ],
+  "resposta": "Os efeitos colaterais da vacina da gripe incluem:\n\n1. Dor local da injeção\n2. Vermelhidão e endurecimento no local da aplicação (ocorrem em 15% a 20% dos vacinados)\n3. Febre (que pode ocorrer de 6 a 12 horas após a aplicação e persistir por um ou dois dias)\n4. Mal-estar\n5. Dor de cabeça\n6. Dor muscular\n\nEssas reações são geralmente leves e temporárias. \n\nFontes:\n- https://www.tuasaude.com/reacoes-vacina-da-gripe\n- https://familia.sbim.org.br/vacinas/vacinas-disponiveis/vacinas-gripe-influenza/vacina-gripe-influenza\n- https://altadiagnosticos.com.br/saude/vacina-da-gripe-pode-dar-febre"
+}

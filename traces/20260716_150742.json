@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-07-16T15:07:42",
+  "pergunta": "Como é feito o procedimento do teste TUG?",
+  "pergunta_reformulada": "Como é realizado o procedimento do teste de Timed Up and Go (TUG)?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Como é realizado o procedimento do teste de Timed Up and Go (TUG)?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 10.02,
+      "limiar": 12.5,
+      "decisao": "rag",
+      "motivo": "melhor distância 10.02 <= limiar 12.5 (corpus responde → RAG)",
+      "fontes_recuperadas": [
+        "GUIA_FISIOTERAPEUTA.md",
+        "J American Geriatrics Society - February 1991 - Podsiadlo - The Timed  Up   Go   A Test of Basic Functional Mobility for.pdf",
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "respondedor",
+      "acao": "gerou a resposta a partir dos trechos do corpus, citando a fonte"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 10.018699645996094,
+  "rota": "rag",
+  "origem": "corpus",
+  "fallback_acionado": false,
+  "motivo_fallback": "melhor distância 10.02 <= limiar 12.5 (corpus responde → RAG)",
+  "trechos": [
+    {
+      "fonte": "J American Geriatrics Society - February 1991 - Podsiadlo - The Timed  Up   Go   A Test of Basic Functional Mobility for.pdf",
+      "distancia": 10.02,
+      "previa": "derly persons, the timed \"Up & Go\" appears to be a \npractical, reliable performance test of physical mobility. \nPreliminary evidence suggests that it is also an objec- \ntive means of following functio"
+    },
+    {
+      "fonte": "J American Geriatrics Society - February 1991 - Podsiadlo - The Timed  Up   Go   A Test of Basic Functional Mobility for.pdf",
+      "distancia": 10.87,
+      "previa": "Miscellaneous P \" ---ee-- \n10 20 30 40 50 60 70 >70 Can't Do \nTime Score (seconds) \nFIGURE 5. Relationship of the timed Up & Go score in seconds and the medical diagnosis. \nboth between observers on t"
+    },
+    {
+      "fonte": "GUIA_FISIOTERAPEUTA.md",
+      "distancia": 10.9,
+      "previa": "### O contador de 15 segundos apareceu\n\n- Isso é normal! É o tempo de sincronização entre o sensor e o sistema.\n- Aguarde o contador zerar antes de iniciar o próximo teste.\n\n---\n\n## 7. Dicas important"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 10.96,
+      "previa": "mede o tempo que o participante caminha uma distância de quatro metros. \nSão testes simples e rápidos, que não causam dor e que duram em torno de 10 \nminutos para serem realizados. O desconforto que o"
+    },
+    {
+      "fonte": "J American Geriatrics Society - February 1991 - Podsiadlo - The Timed  Up   Go   A Test of Basic Functional Mobility for.pdf",
+      "distancia": 11.0,
+      "previa": "\"Up & Go\" for the three raters in random order at \ndifferent times of the same day. Intra-rater reliability \nwas tested on twenty patients as they performed the \ntimed \"Up & Go\" for the same observer "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 11.36,
+      "previa": "participantes. \nComo este instrumento compreende testes de desempen ho, geralmente, \nocorre o efeito do aprendizado ou da memória. Ou se ja, para o idoso, a fase teste \ntorna-se um treino do teste rea"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 11.45,
+      "previa": "participante que ele deve iniciar o teste somente a pós a demonstração do \nexaminador, pois o participante já permanecia na po sição ou iniciava o teste sem \nque antes o avaliador demonstrasse o que d"
+    },
+    {
+      "fonte": "J American Geriatrics Society - February 1991 - Podsiadlo - The Timed  Up   Go   A Test of Basic Functional Mobility for.pdf",
+      "distancia": 11.52,
+      "previa": "elderly population that the timed \"Up & Go\" test is \nmost useful. Although, as a screening tool, it can iden- \ntify both the freely mobile who perform the test in less \nthan 10 seconds and the very de"
+    }
+  ],
+  "resposta": "O teste \"Timed Up and Go\" (TUG) é um procedimento simples e prático que avalia a mobilidade funcional de idosos. O teste consiste nos seguintes passos:\n\n1. **Preparação**: O participante deve estar sentado em uma cadeira, com os pés apoiados no chão e os braços ao lado do corpo.\n\n2. **Instruções**: O avaliador deve demonstrar o que o participante deve fazer antes de iniciar o teste. É importante que o participante compreenda as instruções.\n\n3. **Execução do teste**: Ao sinal do avaliador, o participante deve levantar-se da cadeira, caminhar uma distância de quatro metros (ou três metros, dependendo do protocolo), virar-se, voltar e sentar-se novamente na cadeira.\n\n4. **Cronometragem**: O tempo total para completar o percurso é medido em segundos, desde o momento em que o participante se levanta até se sentar novamente.\n\nO teste é rápido, geralmente levando cerca de 10 minutos para ser realizado, e não causa dor, embora o participante possa sentir cansaço. É importante que o avaliador esteja presente para garantir a segurança do participante e evitar quedas durante a execução do teste (fontes: Trecho 1, Trecho 4, Trecho 8)."
+}
