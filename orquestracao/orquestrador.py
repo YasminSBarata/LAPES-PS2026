@@ -8,8 +8,8 @@ Fluxo:
               → salva o TRACE (ficha completa) em traces/<timestamp>.json
 
 Rodar:
-  ./.venv/bin/python agentes/orquestrador.py "qual a pontuação máxima da SPPB?"
-  ./.venv/bin/python agentes/orquestrador.py            (modo interativo)
+  ./.venv/bin/python orquestracao/orquestrador.py "qual a pontuação máxima da SPPB?"
+  ./.venv/bin/python orquestracao/orquestrador.py            (modo interativo)
 """
 
 import sys
@@ -21,6 +21,9 @@ from pathlib import Path
 from typing import TypedDict, Annotated
 
 warnings.filterwarnings("ignore")
+
+# Os agentes ficam na pasta agentes/ — colocamos ela no caminho de import.
+sys.path.insert(0, str(Path(__file__).parent.parent / "agentes"))
 
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
