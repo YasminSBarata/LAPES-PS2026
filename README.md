@@ -94,11 +94,48 @@ wearable de avaliação de mobilidade desenvolvido em pesquisa CNPq/CESUPA.
   detecção de quedas, TUG estimado…), a arquitetura (sensor → ESP32 → Supabase → dashboard)
   e os limiares de detecção de eventos.
 
-**Justificativa e coesão:** o corpus é internamente conectado — o próprio documento do
+### Justificativa do corpus
+
+**1. Por que esse corpus e o que ele representa como problema real.**
+O ElderSync é um sistema real (pesquisa CNPq/CESUPA) usado por fisioterapeutas para avaliar
+mobilidade e risco de quedas em idosos. O problema real é de **consulta**: para aplicar e
+interpretar os testes, a equipe precisa cruzar dois tipos de conhecimento que hoje vivem
+espalhados — a **literatura clínica** (como funcionam e como se pontuam a SPPB e o TUG, o
+que significam os escores, quais os fatores de risco) e a **documentação interna do produto**
+(como o sensor funciona, quais métricas coleta, como calibrar). Um assistente que responde
+com base nesse material, citando a fonte, resolve a dúvida pontual sem o profissional ter
+que garimpar PDFs. O corpus é coeso e internamente conectado: o próprio documento do
 ElderSync v2 cita Nakano (2007) e Podsiadlo & Richardson (1991) como as bases dos protocolos
-que implementa. A predominância de material de referência e interno é intencional: perguntas
-sobre diretrizes recentes ou temas fora do domínio **caem fora do corpus por design**,
-exercitando o fallback web.
+que implementa.
+
+**2. Por que RAG + busca web, e não um sozinho.**
+- **Só RAG** responde bem o que está no corpus (protocolos, escores, o produto), mas fica
+  cego a tudo que está fora dele — e sem o fallback, tenderia a inventar ou a só dizer "não sei".
+- **Só busca web** responde temas gerais e atuais, mas **não conhece o ElderSync**: a
+  documentação interna é proprietária e não está indexada em lugar nenhum da internet.
+- **Juntos** cobrem o domínio inteiro: o RAG entrega o conhecimento interno/proprietário e a
+  literatura curada (com citação de fonte); a web cobre a lacuna do que é externo ou recente.
+  Neste domínio isso é essencial, porque parte das perguntas é sobre o produto/protocolo (só
+  o RAG sabe) e parte é sobre contexto geral/atual (só a web sabe).
+
+**3. Onde o sistema vai falhar — e por que isso é esperado.**
+- **Fatos específicos enterrados em chunks densos** (ex.: a classificação de risco em faixas
+  do ElderSync) podem não ser recuperados pelo modelo de embedding pequeno — aconteceu no
+  benchmark (pergunta C9). Esperado: PDFs densos/OCR + embedding de 384 dimensões têm recall
+  limitado. O sistema **admite não saber** em vez de inventar.
+- **Perguntas "no tema, mas com dado ausente"** (ex.: "diretrizes da OMS de 2024"): como o
+  roteamento é por assunto/distância e o corpus tem documentos da OMS, elas vão para o RAG e
+  o sistema responde "não encontrei" em vez de ir para a web. É uma consequência esperada do
+  fallback por distância.
+- **Qualidade da resposta web** depende dos resultados do Tavily (ver F4/F5 no benchmark).
+
+**4. Por que esse corpus exercita todas as partes obrigatórias, incluindo o fallback.**
+Domínio único e coeso com mais de 50 mil tokens (requisito de corpus); **bilíngue** (exercita
+a escolha de embedding multilíngue); contém um **PDF-imagem** (exercita o OCR na ingestão);
+tem perguntas claramente respondíveis sobre protocolos, escores e sensor (exercita o RAG e a
+**citação de fonte**); e, por ser um nicho de documentos majoritariamente internos e de
+referência mais antiga, perguntas sobre temas atuais ou fora do nicho **caem fora do corpus
+por design**, acionando o **fallback web** (10 das 20 perguntas do benchmark).
 
 ---
 
