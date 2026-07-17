@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-07-16T15:08:05",
+  "pergunta": "Quem foi Santos Dumont?",
+  "pergunta_reformulada": "Quem foi Alberto Santos Dumont?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Quem foi Alberto Santos Dumont?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 23.18,
+      "limiar": 12.5,
+      "decisao": "web",
+      "motivo": "melhor distância 23.18 > limiar 12.5 (corpus não responde → fallback web)",
+      "fontes_recuperadas": [
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "busca_web",
+      "acao": "fallback: buscou na web (Tavily) e gerou a resposta citando os links"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 23.17621612548828,
+  "rota": "web",
+  "origem": "web",
+  "fallback_acionado": true,
+  "motivo_fallback": "melhor distância 23.18 > limiar 12.5 (corpus não responde → fallback web)",
+  "trechos": [
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 23.18,
+      "previa": "v.288, p.3137-3146, 2002.  \n \nFREITAS, E.V; PY, L; NÉRI, A.L; CANÇADO, F.A.X; GOR ZONI, M.L; ROCHA, \nS.M. Tratadode Geriatria e Gerontologia . Rio de Janeiro: Guanabara Koogan, \n2002. \n \nFRIED, L.; BA"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 23.6,
+      "previa": "p.375-381, 2003. \n \nDUARTE, Y.A.O. Família: Rede de suporte ou fator estressor. A ótic a de \nidosos e cuidadores familiares. São Paulo, 2001. Tese (Doutorado) – Escola de \nEnfermagem, Universidade de "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 24.27,
+      "previa": "versão\u0007 brasileira\u0007 da\u0007,**I\u0007 apresentou\u0007 boa\u0007 confiabilidade\u0007 nos\u0007 idosos\u0007 estudados,\u0007 ensejando\u0007\nrecomendar\u0007outras\u0007análises\u0007psicométricas,\u0007a\u0007fim\u0007de\u0007 se\u0007confirmar\u0007a\u0007validade\u0007deste\u0007instrumento\u0007na\u0007\npopu"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 24.5,
+      "previa": "apresentou boa confiabilidade nos idosos estudados,  ensejando recomendar \noutras análises psicométricas, a fim de se confirma r a validade deste instrumento \nna população idosa brasileira.  \n \nPalavr"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 24.61,
+      "previa": "64 \n  \nestudo de GURALNIK et al.  (1994a), que apresentou respectivamente: r=0,48; \nr=0,39 e r=0,39, todos com p<0,001 (por meio do coe ficiente de correlação de \nSpearman).  \nO estudo de OSTIR et al."
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 24.63,
+      "previa": "alfabetizado e ele é analfabeto ou porque ele não s oube responder por outro \nmotivo.  \n \nBERTOLUCCI, P.H.F.; BRUCKI, S.M.D.; CAMPACCI, S.R.;  JULIANO, Y. O mini-\nexame do estado mental em uma populaç"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 24.83,
+      "previa": "espontaneamente se corrigir) \n \n100 -7   \n93 -  7    \n86- 7   \n79 - 7  \n72 - 7  \n13.O senhor consegue se lembrar das 3 palavras que lhe pedi que \nrepetisse agora há ouco?     \n \n104 \n  \nCarro  \nVaso  "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 25.0,
+      "previa": "valor de alfa (0,72), próximo ao valor α =0,76, encontrado no estudo de GURALNIK \net al.  (1994a), por meio do coeficiente alfa de Cronbach. Segundo HATCHER \n(1994), os valores acima de 0,70 são consi"
+    }
+  ],
+  "resposta": "Santos Dumont foi um inventor e aeronauta brasileiro, conhecido como \"o pai da aviação\". Ele nasceu em 20 de julho de 1873 e faleceu em 23 de julho de 1932. Dumont foi um dos primeiros a projetar e construir aeronaves, contribuindo significativamente para o desenvolvimento da aviação. \n\nFontes:\n- https://pt.wikipedia.org/wiki/Santos_Dumont\n- https://www.ebiografia.com/santos_dumont"
+}
