@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-07-16T15:06:33",
+  "pergunta": "Qual a pontuação máxima da SPPB e o que ela indica?",
+  "pergunta_reformulada": "Qual é a pontuação máxima do SPPB e o que essa pontuação indica sobre a funcionalidade do idoso?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Qual é a pontuação máxima do SPPB e o que essa pontuação indica sobre a funcionalidade do idoso?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 8.68,
+      "limiar": 12.5,
+      "decisao": "rag",
+      "motivo": "melhor distância 8.68 <= limiar 12.5 (corpus responde → RAG)",
+      "fontes_recuperadas": [
+        "ElderSync_v2_Reestruturacao.pdf",
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "respondedor",
+      "acao": "gerou a resposta a partir dos trechos do corpus, citando a fonte"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 8.681386947631836,
+  "rota": "rag",
+  "origem": "corpus",
+  "fallback_acionado": false,
+  "motivo_fallback": "melhor distância 8.68 <= limiar 12.5 (corpus responde → RAG)",
+  "trechos": [
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 8.68,
+      "previa": "4.3.1 Consistência Interna da SPPB \n \n A análise da consistência interna da SPPB foi avaliada por meio do \ncoeficiente alfa de Cronbach, o qual apresentou α  = 0,725, para amostra de 30 \nidosos. Os va"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 8.83,
+      "previa": "SPPB Total  6,56 (±3,05) 6,56 ( ±3,05) 6,5    1 – 12  \n±± ±±Dp = Desvio padrão; *A1/A2 mesmos valores para o avaliador 1 e 2.        \n                   \nNesta análise descritiva observa-se que as méd"
+    },
+    {
+      "fonte": "ElderSync_v2_Reestruturacao.pdf",
+      "distancia": 8.83,
+      "previa": ">  30  segundos  Dependência  funcional  significativa  \nVermelho  \n  \nPágina  14\n \nElderSync  v2.0  –  Documento  de  Reestruturação\n \n4.  Pontuação  Geral  SPPB  \nA  dashboard  deve  calcular  e  ex"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 9.15,
+      "previa": "escore na SPPB com o avanço da idade, ao estudarem uma amostra de  5000 \nidosos, acima de 71 anos, moradores da comunidade. Os idosos de 75-79 anos \nobtiveram 0,47 pontos a menos do que aqueles com id"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 9.16,
+      "previa": "21 \n  \nde marcha; 0,73 para o teste de levantar da cadeira  e 0,97 para o teste de \nequilíbrio, por meio do ICC (GURALNIK et al., 1995).  \nTem-se utilizado largamente a SPPB em pesquisas sobre o \nenve"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 9.34,
+      "previa": "O escore total da SPPB é obtido pela soma das pontuações de cada teste, \nvariando de zero (pior desempenho) a 12 pontos (mel hor desempenho). De \nacordo com GURALNIK et al. (1995), FERRUCCI et al. (20"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 9.42,
+      "previa": "moderada magnitude com a SPPB, em resultado obtido por meio do coeficiente de \ncorrelação de Pearson, (r=0,65; p<0,001). A validade concorrente utiliza ndo a \nSPPB foi significativa (r=0,37; p<0,001)."
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 9.43,
+      "previa": "completa o teste. Atribui-se escore um, para tempo de levantar-se da cadeira, nas \ncinco vezes consecutivas, maior que 16,7 seg; escore dois, para  tempo entre 13,7 \na 16,6 seg; escore três, para temp"
+    }
+  ],
+  "resposta": "A pontuação máxima da SPPB (Short Physical Performance Battery) é 12 pontos. Essa pontuação indica um bom desempenho funcional. A graduação dos resultados é a seguinte: \n\n- 0 a 3 pontos: Incapacidade ou desempenho muito ruim;\n- 4 a 6 pontos: Baixo desempenho;\n- 7 a 9 pontos: Moderado desempenho;\n- 10 a 12 pontos: Bom desempenho. \n\nEssas informações são baseadas nos trechos 6 e 4 do documento (Nakano_MarciaMariko_M.pdf)."
+}

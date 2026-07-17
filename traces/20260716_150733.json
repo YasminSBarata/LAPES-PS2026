@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-07-16T15:07:33",
+  "pergunta": "Segundo a OMS, como o ambiente físico influencia o risco de quedas?",
+  "pergunta_reformulada": "Como o ambiente físico impacta o risco de quedas, de acordo com a OMS?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Como o ambiente físico impacta o risco de quedas, de acordo com a OMS?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 7.84,
+      "limiar": 12.5,
+      "decisao": "rag",
+      "motivo": "melhor distância 7.84 <= limiar 12.5 (corpus responde → RAG)",
+      "fontes_recuperadas": [
+        "Nakano_MarciaMariko_M.pdf",
+        "WHOGlobalReportonFalls PreventioninOlderAge.pdf"
+      ]
+    },
+    {
+      "agente": "respondedor",
+      "acao": "gerou a resposta a partir dos trechos do corpus, citando a fonte"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 7.843657970428467,
+  "rota": "rag",
+  "origem": "corpus",
+  "fallback_acionado": false,
+  "motivo_fallback": "melhor distância 7.84 <= limiar 12.5 (corpus responde → RAG)",
+  "trechos": [
+    {
+      "fonte": "WHOGlobalReportonFalls PreventioninOlderAge.pdf",
+      "distancia": 7.84,
+      "previa": "for further information). \nc) Environmental risk factors\nEnvironmental factors encapsulate the \ninterplay of individuals' physical conditions \nand the surrounding environment, includ-\ning home hazards"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 8.17,
+      "previa": "para a perda da independência funcional nas ABVDs (VREEDE et al., 2005). Entre \nas conseqüências desta perda destaca-se o prejuízo da qualidade de vida, bem \n8 \n  \ncomo o maior risco de quedas e fratu"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 8.78,
+      "previa": "encefálico (AVE) ou de fratura de quadril, sem tere m demonstrado algum sinal de \ndeclínio funcional (ONDER et al., 2005). GRAY et al. (2006) complementam que a \nincapacidade é manifestada quando a in"
+    },
+    {
+      "fonte": "WHOGlobalReportonFalls PreventioninOlderAge.pdf",
+      "distancia": 8.96,
+      "previa": "which intensifies the risk of falling due to \nsome environmental hazards (see Chapter 3 \nfor further information).\nb) Behavioural risk factors\nBehavioural risk factors include those \nconcerning human "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 9.31,
+      "previa": "O benefício que o participante terá com este estudo  é obter o resultado de como \nestá o seu desempenho físico frente a estes testes e assim poder prevenir futuras \ncomplicações físicas (como por exem"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 9.6,
+      "previa": "substanciais quando são aplicados testes que aprese ntem oscilações posturais \n(SPIRDUSO, 2005). A oscilação postural é funcionalm ente significativa porque \nestá relacionada ao risco de queda. MIYAMO"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 9.75,
+      "previa": "(OMS) manifesta, reiteradamente, sua preocupação co m o aumento da \nexpectativa de vida, principalmente ao considerar o  aspecto assustador da \nincapacidade e da dependência, as maiores adversida des "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 9.77,
+      "previa": "9 \n  \nrisco de mortalidade, e pode facilmente identificar  um grande grupo com alto risco \npara incapacidades futuras (ROLLAND et al., 2006).  \nCESARI et al. (2005) ressaltam que a medida da velocidad"
+    }
+  ],
+  "resposta": "Segundo a OMS, o ambiente físico influencia o risco de quedas através de fatores de risco ambientais que interagem com as condições físicas dos indivíduos. Esses fatores incluem perigos no lar, como degraus estreitos, superfícies escorregadias, tapetes soltos e iluminação insuficiente. Além disso, em ambientes públicos, problemas como calçadas irregulares, pisos escorregadios e má iluminação também contribuem para o aumento do risco de quedas. A interação entre esses fatores ambientais e outros aspectos, como a saúde e a mobilidade do idoso, é crucial para entender e prevenir quedas (Trechos 1 e 4 — fonte: WHOGlobalReportonFalls PreventioninOlderAge.pdf)."
+}

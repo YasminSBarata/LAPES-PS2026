@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-07-16T15:06:52",
+  "pergunta": "O que é o teste Timed Up and Go (TUG)?",
+  "pergunta_reformulada": "O que consiste o teste Timed Up and Go (TUG)?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "O que consiste o teste Timed Up and Go (TUG)?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 10.17,
+      "limiar": 12.5,
+      "decisao": "rag",
+      "motivo": "melhor distância 10.17 <= limiar 12.5 (corpus responde → RAG)",
+      "fontes_recuperadas": [
+        "GUIA_FISIOTERAPEUTA.md",
+        "J American Geriatrics Society - February 1991 - Podsiadlo - The Timed  Up   Go   A Test of Basic Functional Mobility for.pdf",
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "respondedor",
+      "acao": "gerou a resposta a partir dos trechos do corpus, citando a fonte"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 10.169516563415527,
+  "rota": "rag",
+  "origem": "corpus",
+  "fallback_acionado": false,
+  "motivo_fallback": "melhor distância 10.17 <= limiar 12.5 (corpus responde → RAG)",
+  "trechos": [
+    {
+      "fonte": "J American Geriatrics Society - February 1991 - Podsiadlo - The Timed  Up   Go   A Test of Basic Functional Mobility for.pdf",
+      "distancia": 10.17,
+      "previa": "derly persons, the timed \"Up & Go\" appears to be a \npractical, reliable performance test of physical mobility. \nPreliminary evidence suggests that it is also an objec- \ntive means of following functio"
+    },
+    {
+      "fonte": "GUIA_FISIOTERAPEUTA.md",
+      "distancia": 10.82,
+      "previa": "### O contador de 15 segundos apareceu\n\n- Isso é normal! É o tempo de sincronização entre o sensor e o sistema.\n- Aguarde o contador zerar antes de iniciar o próximo teste.\n\n---\n\n## 7. Dicas important"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 11.12,
+      "previa": "participantes. \nComo este instrumento compreende testes de desempen ho, geralmente, \nocorre o efeito do aprendizado ou da memória. Ou se ja, para o idoso, a fase teste \ntorna-se um treino do teste rea"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 11.14,
+      "previa": "pontuação (0 a 6 pontos) na fase do teste tenderam,  após sete dias, a também \npontuarem baixo no reteste. O mesmo se observa com os participantes que \ntiveram moderada a alta pontuação (7 a 12 pontos"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 11.28,
+      "previa": "mantendo os braços cruzados sobre o peito”. \nEm outro item, também referente a este teste, foi a lterada a instrução “Por \nfavor, levante-se o mais RÁPIDO possível, cinco vez es seguidas, sem parar en"
+    },
+    {
+      "fonte": "J American Geriatrics Society - February 1991 - Podsiadlo - The Timed  Up   Go   A Test of Basic Functional Mobility for.pdf",
+      "distancia": 11.29,
+      "previa": "Miscellaneous P \" ---ee-- \n10 20 30 40 50 60 70 >70 Can't Do \nTime Score (seconds) \nFIGURE 5. Relationship of the timed Up & Go score in seconds and the medical diagnosis. \nboth between observers on t"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 11.35,
+      "previa": "participante que ele deve iniciar o teste somente a pós a demonstração do \nexaminador, pois o participante já permanecia na po sição ou iniciava o teste sem \nque antes o avaliador demonstrasse o que d"
+    },
+    {
+      "fonte": "J American Geriatrics Society - February 1991 - Podsiadlo - The Timed  Up   Go   A Test of Basic Functional Mobility for.pdf",
+      "distancia": 11.36,
+      "previa": "\"Up & Go\" for the three raters in random order at \ndifferent times of the same day. Intra-rater reliability \nwas tested on twenty patients as they performed the \ntimed \"Up & Go\" for the same observer "
+    }
+  ],
+  "resposta": "O teste Timed Up and Go (TUG) é uma avaliação prática e confiável da mobilidade física em idosos. Ele consiste em medir o tempo que uma pessoa leva para se levantar de uma cadeira, andar uma certa distância (geralmente de três a quatro metros), voltar e sentar-se novamente. O teste é simples, rápido e não requer equipamentos especiais, apenas um cronômetro. \n\nAlém de ser uma ferramenta útil para avaliar a mobilidade, o TUG também pode ser utilizado para monitorar mudanças funcionais ao longo do tempo. A pontuação obtida no teste pode refletir as habilidades básicas de mobilidade do idoso, e a confiabilidade dos resultados é alta, tanto entre diferentes avaliadores quanto em avaliações repetidas com o mesmo avaliador (J American Geriatrics Society - February 1991 - Podsiadlo - The Timed Up and Go A Test of Basic Functional Mobility for.pdf). \n\nEm resumo, o TUG é um teste importante para identificar o risco de quedas e a capacidade funcional em idosos."
+}

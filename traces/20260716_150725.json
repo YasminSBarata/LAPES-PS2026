@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-07-16T15:07:25",
+  "pergunta": "Quais sensores o ElderSync usa na integração IoT?",
+  "pergunta_reformulada": "Quais tipos de sensores são utilizados pelo ElderSync na integração com a Internet das Coisas (IoT)?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Quais tipos de sensores são utilizados pelo ElderSync na integração com a Internet das Coisas (IoT)?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 7.62,
+      "limiar": 12.5,
+      "decisao": "rag",
+      "motivo": "melhor distância 7.62 <= limiar 12.5 (corpus responde → RAG)",
+      "fontes_recuperadas": [
+        "A_Real_Time_and_Self_Calibrating_Algorit.pdf",
+        "ElderSync_v2_Reestruturacao.pdf",
+        "GUIA_FISIOTERAPEUTA.md",
+        "IOT_INTEGRATION.md"
+      ]
+    },
+    {
+      "agente": "respondedor",
+      "acao": "gerou a resposta a partir dos trechos do corpus, citando a fonte"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 7.61997652053833,
+  "rota": "rag",
+  "origem": "corpus",
+  "fallback_acionado": false,
+  "motivo_fallback": "melhor distância 7.62 <= limiar 12.5 (corpus responde → RAG)",
+  "trechos": [
+    {
+      "fonte": "IOT_INTEGRATION.md",
+      "distancia": 7.62,
+      "previa": "# Integração IoT - ESP32 + MPU6050\n\nEste documento explica como integrar sensores ESP32 com MPU6050 ao sistema de monitoramento de pacientes idosos.\n\n## Métricas Coletadas"
+    },
+    {
+      "fonte": "GUIA_FISIOTERAPEUTA.md",
+      "distancia": 12.48,
+      "previa": "- **O sensor é opcional.** Se ele não estiver disponível ou der problema, você pode aplicar os testes normalmente pelo sistema — só não terá os dados de movimento.\n- **Não precisa parear via Bluetooth"
+    },
+    {
+      "fonte": "A_Real_Time_and_Self_Calibrating_Algorit.pdf",
+      "distancia": 12.95,
+      "previa": "useful in higher-level decision-making process.  \nB. Instrumentation \nA portable device for activity monitoring should be made of \nthree main components: sensor (a tri-axial accelerometer, in \nour cas"
+    },
+    {
+      "fonte": "ElderSync_v2_Reestruturacao.pdf",
+      "distancia": 13.43,
+      "previa": "Página  2\n \nElderSync  v2.0  –  Documento  de  Reestruturação\n \n1.  Introdução  e  Contexto  da  Mudança  \nEste  documento  detalha  a  reestruturação  completa  do  projeto  ElderSync,  \nanteriorment"
+    },
+    {
+      "fonte": "ElderSync_v2_Reestruturacao.pdf",
+      "distancia": 13.6,
+      "previa": "ESP32  +  MPU6050  Sim  Firmware  simplificado  (só  oscilações  e  marcha)  \nAlgoritmos  de  detecção  de  queda  contínua,  padrões  circadianos  Recharts  Sim  Novos  gráficos  de  evolução  longit"
+    },
+    {
+      "fonte": "GUIA_FISIOTERAPEUTA.md",
+      "distancia": 13.87,
+      "previa": "---\n\n## 2. Ligando o dispositivo\n\n1. Ligue o sensor.\n2. Aguarde ~10 segundos — ele se conecta sozinho ao Wi-Fi e ao sistema.\n3. Observe a **luz LED** do sensor:"
+    },
+    {
+      "fonte": "ElderSync_v2_Reestruturacao.pdf",
+      "distancia": 13.93,
+      "previa": "para\n \nfuncionar\n \ncomo\n \numa\n \nferramenta\n \nde\n \nregistro\n \ndigital\n \ndos\n \ntestes\n \npadronizados\n \nque\n \njá\n \nsão\n \naplicados\n \npresencialmente\n \nna\n \nclínica.\n A  nova  proposta  transforma  o  Eld"
+    },
+    {
+      "fonte": "A_Real_Time_and_Self_Calibrating_Algorit.pdf",
+      "distancia": 13.98,
+      "previa": "working activity, health state, or even environmental \nconditions surrounding the wearer. Therefore, they provide a \nlarge amount of biometric and environment-related signals: in \nthis scenario, one c"
+    }
+  ],
+  "resposta": "O ElderSync utiliza a integração de sensores ESP32 com MPU6050 para o monitoramento de pacientes idosos. O MPU6050 é um sensor que coleta dados de movimento, enquanto o ESP32 serve como a unidade de processamento e transmissão dos dados coletados. Essa combinação permite a medição de oscilações corporais e velocidade de marcha durante os testes. (fontes: IOT_INTEGRATION.md, ElderSync_v2_Reestruturacao.pdf)"
+}

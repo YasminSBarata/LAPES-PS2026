@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-07-16T15:07:01",
+  "pergunta": "Qual a bula e posologia do paracetamol?",
+  "pergunta_reformulada": "Qual é a bula e a posologia do paracetamol?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Qual é a bula e a posologia do paracetamol?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 14.35,
+      "limiar": 12.5,
+      "decisao": "web",
+      "motivo": "melhor distância 14.35 > limiar 12.5 (corpus não responde → fallback web)",
+      "fontes_recuperadas": [
+        "ElderSync_v2_Reestruturacao.pdf",
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "busca_web",
+      "acao": "fallback: buscou na web (Tavily) e gerou a resposta citando os links"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 14.345989227294922,
+  "rota": "web",
+  "origem": "web",
+  "fallback_acionado": true,
+  "motivo_fallback": "melhor distância 14.35 > limiar 12.5 (corpus não responde → fallback web)",
+  "trechos": [
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 14.35,
+      "previa": "59 \n  \n A Figura 2 apresenta a dispersão da amostra em rel ação ao escore total da \nSPPB, atribuída pelo A1, no teste-reteste.  \n \nFigura 2 – Diagrama de dispersão da amostra, em rel ação ao escore to"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 14.95,
+      "previa": "domínios e também para o escore total da SPPB, muito próximos de 1, ou seja, há \ncorrelação de fato das avaliações realizadas pelos dois examinadores no mesmo \npaciente.  \n \n A concordância entre os a"
+    },
+    {
+      "fonte": "ElderSync_v2_Reestruturacao.pdf",
+      "distancia": 14.96,
+      "previa": "utiliza\n \no\n \nacelerômetro\n \ne\n \no\n \ngiroscópio\n \ndo\n \nMPU6050\n \npara\n \ncapturar\n \no\n \nângulo\n \nde\n \nflexão\n \nanterior\n \ndo\n \ntronco\n \nem\n \ncada\n \numa\n \ndas\n \n5\n \nrepetições.\n \nAntes\n \nde\n \niniciar\n \n"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 15.05,
+      "previa": "houve estabilidade dos escores, atribuídos pelo A1, nas fases do teste e reteste. \n \n Para maiores esclarecimentos, os detalhes dos resu ltados da SPPB estão \napresentados no APÊNDICE VI, que contém o"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 15.08,
+      "previa": "A versão final da SPPB (V3 – APÊNDICE IV), após o pré-teste, foi então \ntestada numa amostra de 30 idosos residentes em ins tituição de longa \npermanência, a fim de avaliar a confiabilidade do i nstru"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 15.16,
+      "previa": "principal e medicamentos em uso.  \n3. Versão Brasileira da Short Physical Performance Battery – SPPB  \n(APÊNDICE IV). Foi aplicada a versão final, resulta nte das etapas do processo \nmetodológico adot"
+    },
+    {
+      "fonte": "ElderSync_v2_Reestruturacao.pdf",
+      "distancia": 15.28,
+      "previa": "Numérico  (graus)  Preenchido  automaticamente  pelo  dispositivo.  Valor  único  que  representa  a  amplitude  média  de  oscilação  geral  do  tronco  durante  a  caminhada,  combinando  os  desloc"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 15.37,
+      "previa": "avaliado duas vezes nos mesmos indivíduos, após determinado período de tempo, \ngeralmente entre uma ou duas semanas, GUILLEMIN et al.  (2005) chegaram a \nutilizar quatro semanas de intervalo entre o t"
+    }
+  ],
+  "resposta": "A bula e posologia do paracetamol variam conforme a apresentação do medicamento. Aqui estão algumas informações:\n\n1. **Comprimidos de Paracetamol 500 mg**:\n   - Adultos: 1 comprimido, 3 a 5 vezes ao dia.\n   - Dose diária máxima: 4000 mg (8 comprimidos de 500 mg) [Fonte: https://drconsulta.com/conteudo/paracetamol-comprimido-medquimica-bula].\n\n2. **Gotas de Paracetamol**:\n   - Adultos: 40 a 70 gotas a cada 4 a 6 horas.\n   - Dose máxima por administração: 70 gotas (1.000 mg).\n   - Dose máxima diária: 280 gotas (4.000 mg) [Fonte: https://www.drogaraia.com.br/bulas/paracetamol].\n\n3. **Comprimidos de Paracetamol 750 mg**:\n   - Adultos e crianças acima de 12 anos: 1 comprimido, 3 a 5 vezes ao dia.\n   - Dose diária máxima: 4000 mg (5 comprimidos de 750 mg) [Fonte: https://www.precopopular.com.br/bula/paracetamol-ems-750mg-com-20-comprimidos].\n\nEssas informações são importantes para garantir o uso seguro e eficaz do medicamento."
+}

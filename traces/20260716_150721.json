@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-07-16T15:07:21",
+  "pergunta": "Qual o preço do iPhone lançado em 2025?",
+  "pergunta_reformulada": "Qual é o preço do iPhone que será lançado em 2025?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Qual é o preço do iPhone que será lançado em 2025?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 25.51,
+      "limiar": 12.5,
+      "decisao": "web",
+      "motivo": "melhor distância 25.51 > limiar 12.5 (corpus não responde → fallback web)",
+      "fontes_recuperadas": [
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "busca_web",
+      "acao": "fallback: buscou na web (Tavily) e gerou a resposta citando os links"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 25.511823654174805,
+  "rota": "web",
+  "origem": "web",
+  "fallback_acionado": true,
+  "motivo_fallback": "melhor distância 25.51 > limiar 12.5 (corpus não responde → fallback web)",
+  "trechos": [
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 25.51,
+      "previa": "categoria idade, o declínio dos escores apresentou diferença significativa entre 65-\n74 e ≥85 anos, (p<0,0004). O declínio estimado dos escore s para as três \ncategorias de idade (65-74, 75-84 e ≥85) "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 25.65,
+      "previa": "concordância entre as avaliações do A1, realizadas no teste e no reteste. As \nconcordâncias estão separadas por domínio e para o total da SPPB.  \n \n Tabela 5 – Valores de concordância no teste-retest "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 25.76,
+      "previa": "valor de alfa (0,72), próximo ao valor α =0,76, encontrado no estudo de GURALNIK \net al.  (1994a), por meio do coeficiente alfa de Cronbach. Segundo HATCHER \n(1994), os valores acima de 0,70 são consi"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 25.8,
+      "previa": "total de 6,93 ( ±3,19) pontos, os dados foram similares aos demonstr ados no \npresente estudo, tanto na média do escore da SPPB (6,56±3,05) como no baixo \nnível escolar da maioria dos sujeitos (90% do"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 25.81,
+      "previa": "interobservador e intra-observador, avaliada por me io do coeficiente de correlação \nintraclasse (ICC), uma variação de 0,89 a 1,00 (p< 0,01) e 0,83 a 0,92 (p< 0,01), \nrespectivamente. \n \n- Medida de "
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 25.94,
+      "previa": "23 \n  \nSPPB de uma população independente nas AVBDs prediz subs eqüente início de \ndeclínio funcional. A SPPB, portanto, é indicada para identificar subgrupos d e \nidosos tanto com baixo e como alto r"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 26.03,
+      "previa": "instrumento\u0007apresentasse\u0007mais\u0007de\u000715%\u0007de\u0007não\u0007entendi mento,\u0007relatado\u0007pelos\u0007avaliadores\u0007ou\u0007pelos\u0007\nidosos,\u0007a\u0007questão\u0007era\u0007reformulada\u0007e\u0007reaplicada.\u0007Par a\u0007analisar\u0007a\u0007confiabilidade\u0007da\u0007versão\u0007final\u0007da\u0007\n,**I"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 26.04,
+      "previa": "Esta escala avalia o desempenho do equilíbrio funci onal em 14 ítens \ncomuns à vida diária. A pontuação máxima pode chega r a 56 e cada item possui \numa escala ordinal de 5 alternativas que variam de "
+    }
+  ],
+  "resposta": "Os resultados da busca não contêm informações sobre o preço do iPhone lançado em 2025. Portanto, não posso responder a essa pergunta."
+}

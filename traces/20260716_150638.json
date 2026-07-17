@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-07-16T15:06:38",
+  "pergunta": "Quais são os três componentes (testes) que compõem a SPPB?",
+  "pergunta_reformulada": "Quais são os três testes que fazem parte da avaliação do SPPB?",
+  "etapas": [
+    {
+      "agente": "reformulador",
+      "acao": "reescreveu a pergunta em termos clínicos",
+      "saida": "Quais são os três testes que fazem parte da avaliação do SPPB?"
+    },
+    {
+      "agente": "recuperador",
+      "acao": "buscou no índice (pergunta original + reformulada, união) e decidiu a rota",
+      "distancia_min": 10.12,
+      "limiar": 12.5,
+      "decisao": "rag",
+      "motivo": "melhor distância 10.12 <= limiar 12.5 (corpus responde → RAG)",
+      "fontes_recuperadas": [
+        "ElderSync_v2_Reestruturacao.pdf",
+        "Nakano_MarciaMariko_M.pdf"
+      ]
+    },
+    {
+      "agente": "respondedor",
+      "acao": "gerou a resposta a partir dos trechos do corpus, citando a fonte"
+    }
+  ],
+  "limiar": 12.5,
+  "distancia_min": 10.122466087341309,
+  "rota": "rag",
+  "origem": "corpus",
+  "fallback_acionado": false,
+  "motivo_fallback": "melhor distância 10.12 <= limiar 12.5 (corpus responde → RAG)",
+  "trechos": [
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 10.12,
+      "previa": "pareado. \n \n Tabela 6 – Análise descritiva dos escores da SPPB no teste-reteste; e o p-valor, da \nmédia do escore total, por meio do Teste T-pareado (n=30). São Paulo, 2006.                           "
+    },
+    {
+      "fonte": "ElderSync_v2_Reestruturacao.pdf",
+      "distancia": 10.94,
+      "previa": "SPPB,\n \nque\n \né\n \na\n \nsoma\n \ndas\n \ntrês\n \nseções:\n \nComponente Pontuação  Máxima 1.  Testes  de  Equilíbrio  (soma  dos  3  subtestes)  4  pontos  2.  Velocidade  de  Marcha  4  pontos  3.  Levantar-s"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 11.01,
+      "previa": "0\n1\n2\n3\n4\nEquilíbrio - Reteste\nEquilíbrio - Teste\n                        \n1 2 3 4\n1\n2\n3\n4\nMarcha - Reteste\nMarcha - Teste\n \n0 1 2 3 4\n0\n1\n2\n3\n4\nForça - Reteste\nForça - Teste\n                       \n0"
+    },
+    {
+      "fonte": "ElderSync_v2_Reestruturacao.pdf",
+      "distancia": 11.87,
+      "previa": "cronometragem\n \nmanual\n \ndo\n \nfisioterapeuta.\n \n \n  \nPágina  10\n \nElderSync  v2.0  –  Documento  de  Reestruturação\n \n3.3  Módulo:  Teste  de  Levantar-se  da  Cadeira  (SPPB)  Este  módulo  correspon"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 12.08,
+      "previa": "Tabela 3 – Correlação entre os domínios e a SPPB total (n=30). Sã\no \nPaulo, 2006................................................................................................ \n \n \n55 \n \n \nTabela 4 –"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 12.09,
+      "previa": "54 \n  \n4.2.2 Análise descritiva dos escores da SPPB atribuídas pelo \nA1 e A2. \n \nA tabela a seguir (Tabela 2) apresenta a análise de scritiva dos escores da \nSPPB atribuídas pelo A1 e A2, separadas po"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 12.54,
+      "previa": "para o domínio força e o total da SPPB, as médias dos escores atribuídos pelos \navaliadores foram exatamente iguais 1,9 (±1,39) e 6,5 (±3,05), respectivamente.  \n \n \n  4.2.3 Análise da correlação entr"
+    },
+    {
+      "fonte": "Nakano_MarciaMariko_M.pdf",
+      "distancia": 12.6,
+      "previa": "valor apresentado foi inferior (ICC=0,562) aos outr os três valores. Entretanto, \nhouve concordância significativa para todos os iten s, avaliados pelo A1 no teste e \nno reteste (p<0,001).   \n \n \n \n \n"
+    }
+  ],
+  "resposta": "Os três componentes que compõem a SPPB (Short Physical Performance Battery) são:\n\n1. Testes de Equilíbrio (soma dos 3 subtestes) - pontuação máxima de 4 pontos.\n2. Velocidade de Marcha - pontuação máxima de 4 pontos.\n3. Levantar-se da Cadeira - pontuação máxima de 4 pontos.\n\nA pontuação total da SPPB é de 12 pontos. (Fonte: ElderSync_v2_Reestruturacao.pdf)"
+}
