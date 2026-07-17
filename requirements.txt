@@ -5,20 +5,29 @@
 
 
 # --- Ingestão / RAG ---
-langchain                # framework base (loaders, text splitters, abstrações)
-langchain-community      # loaders de PDF/HTML/texto e integrações
-faiss-cpu                # vector store local, reprodutível
-sentence-transformers    # embeddings locais gratuitos (sem chave de API)
-pypdf                    # extração de texto de PDF
+# Obs: o torch é puxado pelo sentence-transformers. Instale a versão CPU antes:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+langchain-text-splitters # picador de texto em chunks (medido em tokens)
+langchain-huggingface    # conecta o modelo de embedding ao LangChain
+langchain-community      # vector store FAISS
+faiss-cpu                # índice vetorial local, reprodutível
+sentence-transformers    # roda o modelo de embedding
+transformers             # tokenizador do modelo (usado como régua do chunking)
+# modelo de embedding: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (PT+EN)
+pypdf                    # extração de texto de PDF (PDFs com texto selecionável)
 python-dotenv            # carregar variáveis do .env
 
-# --- LLM + orquestração (PRÓXIMAS etapas) ---
-# langgraph
-# langchain-openai       # só se optar por OpenAI
-# langchain-huggingface  # só se optar por modelo local
+# --- OCR (usado uma vez para o artigo Guralnik, que era um PDF-imagem) ---
+pymupdf                  # renderiza páginas de PDF como imagem
+rapidocr-onnxruntime     # motor de OCR local (modelos embutidos, sem dependência de sistema)
+
+# --- LLM + orquestração ---
+langchain-openai         # LLM escolhido: gpt-4o-mini (conectado ✓)
+# langgraph              # orquestração dos agentes (entra quando amarrar o fluxo)
+# langchain-huggingface  # alternativa local (Ollama) — troca no fim, se quiser
 
 # --- Busca web / fallback ---
-# tavily-python
+langchain-tavily         # busca web para o agente de fallback (conectado ✓)
 
 # --- Interface ---
 # streamlit
