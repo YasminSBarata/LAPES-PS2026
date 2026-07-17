@@ -156,6 +156,13 @@ Lê o corpus, faz o chunking e cria o índice FAISS em `indice/`:
 **Resultado no conjunto de teste: roteamento 100%, correção 90%.**
 Relatório completo em [`avaliacao/resultados.md`](avaliacao/resultados.md).
 
+### Custo (API paga)
+
+O benchmark completo usa o `gpt-4o-mini` (~40 chamadas). Consumo **medido** (não estimado):
+**29.224 tokens = US$ 0,0058** (menos de um centavo) para rodar as 20 perguntas.
+Detalhes e reprodução em [`avaliacao/custo.md`](avaliacao/custo.md) / `avaliacao/custo.py`.
+Embeddings (local) e busca web (Tavily, plano gratuito) não têm custo.
+
 ---
 
 ## Observabilidade
