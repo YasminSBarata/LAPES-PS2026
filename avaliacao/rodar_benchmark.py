@@ -20,8 +20,8 @@ from pathlib import Path
 
 warnings.filterwarnings("ignore")
 
-# O orquestrador está na pasta agentes/ — colocamos ela no caminho de import.
-sys.path.insert(0, str(Path(__file__).parent.parent / "agentes"))
+# O orquestrador está na pasta orquestracao/ — colocamos ela no caminho de import.
+sys.path.insert(0, str(Path(__file__).parent.parent / "orquestracao"))
 from orquestrador import construir_grafo, salvar_trace  # noqa: E402
 
 from perguntas import PERGUNTAS  # noqa: E402
