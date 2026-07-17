@@ -54,24 +54,51 @@ indice/         índice FAISS gerado (não versionado — recriar com a ingestã
 
 ## Corpus
 
-8 documentos, todos no domínio de **mobilidade e risco de quedas em idosos**:
+8 documentos (~mais de 50 mil tokens) num **único domínio clínico**: avaliação da
+mobilidade e do risco de quedas em idosos. O corpus foi montado para conectar a
+**literatura de referência** (como os testes funcionais funcionam e o que dizem as
+evidências) ao **produto real** que motiva o projeto — o **ElderSync**, um sistema
+wearable de avaliação de mobilidade desenvolvido em pesquisa CNPq/CESUPA.
 
-**Artigos e literatura clínica** (`corpus/artigos/`)
-- Dissertação de Nakano — validação brasileira da SPPB
-- Podsiadlo & Richardson (1991) — teste Timed Up and Go (TUG)
-- Guralnik et al. — Short Physical Performance Battery (recuperado por OCR)
-- WHO Global Report on Falls Prevention in Older Age
-- A Real-Time and Self-Calibrating Algorithm (sensores/marcha)
+### Literatura clínica de referência (`corpus/artigos/`)
 
-**Documentos internos ElderSync** (`corpus/eldersync/`)
-- Reestruturação do sistema ElderSync v2
-- Guia do fisioterapeuta
-- Integração IoT (sensores ESP32 + MPU6050)
+- **Nakano (2007) — Validação brasileira da SPPB.** Dissertação que adaptou culturalmente
+  e validou para o português a *Short Physical Performance Battery*, avaliando suas
+  propriedades psicométricas na população idosa brasileira. É a principal fonte sobre a
+  SPPB (pontuação, graduação, subtestes).
+- **Guralnik et al. — SPPB original.** Artigo que introduz a bateria (equilíbrio,
+  velocidade de marcha, levantar-se da cadeira) como preditora de incapacidade. Era um
+  PDF-imagem; foi recuperado por **OCR** (`ingestao/ocr_um_pdf.py`).
+- **Podsiadlo & Richardson (1991), JAGS — Teste Timed Up and Go (TUG).** Artigo seminal do
+  TUG: mede o tempo para levantar de uma cadeira, andar ~3 m, voltar e sentar, avaliando
+  mobilidade funcional e risco de quedas.
+- **WHO Global Report on Falls Prevention in Older Age.** Relatório da OMS sobre fatores de
+  risco de quedas (biológicos, comportamentais, **ambientais** e socioeconômicos) e
+  estratégias de prevenção.
+- **Curone et al. (IEEE) — Algoritmo de detecção de postura/atividade.** Algoritmo em tempo
+  real, auto-calibrante e independente da orientação do sensor, que classifica postura e
+  atividade a partir de um acelerômetro tri-axial vestível (96,2% de acurácia).
+  Fundamenta a parte de sensores do ElderSync.
 
-**Justificativa:** o corpus é coeso (um único domínio clínico) e conecta a literatura de
-referência ao produto real (ElderSync). A predominância de material mais antigo/interno é
-intencional: perguntas sobre diretrizes recentes ou temas fora do domínio **caem fora do
-corpus por design**, exercitando o fallback web.
+### Documentos internos do ElderSync (`corpus/eldersync/`)
+
+- **Reestruturação do ElderSync v2.** Documento do projeto (CNPq/CESUPA, 2026) que
+  redireciona o sistema de "monitoramento contínuo" (v1) para um **registro clínico digital**
+  dos testes padronizados (SPPB + TUG). Traz os protocolos adotados, a pontuação da SPPB e
+  o papel do dispositivo (ESP32 + MPU6050) na medição de oscilação corporal e marcha.
+- **Guia do fisioterapeuta.** Manual prático de uso do sensor durante os testes: estados do
+  LED, calibração, fluxo de cada teste e as métricas coletadas (oscilação ântero-posterior
+  e médio-lateral, RMS, ângulo do tronco no sentar/levantar, etc.).
+- **Integração IoT (ESP32 + MPU6050).** Documento técnico da coleta de dados: as 10 métricas
+  do sensor (contagem de passos, cadência, velocidade de marcha, estabilidade postural,
+  detecção de quedas, TUG estimado…), a arquitetura (sensor → ESP32 → Supabase → dashboard)
+  e os limiares de detecção de eventos.
+
+**Justificativa e coesão:** o corpus é internamente conectado — o próprio documento do
+ElderSync v2 cita Nakano (2007) e Podsiadlo & Richardson (1991) como as bases dos protocolos
+que implementa. A predominância de material de referência e interno é intencional: perguntas
+sobre diretrizes recentes ou temas fora do domínio **caem fora do corpus por design**,
+exercitando o fallback web.
 
 ---
 
